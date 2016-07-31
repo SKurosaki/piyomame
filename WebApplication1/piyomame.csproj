@@ -123,6 +123,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="html\first.cshtml" />
+    <Content Include="html\img.cshtml" />
+    <Content Include="html\memo.cshtml" />
+    <Content Include="html\sns.cshtml" />
+    <Content Include="html\footer.cshtml" />
+    <None Include="html\header.php" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

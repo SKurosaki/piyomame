@@ -125,6 +125,16 @@ last update
 .button:hover {
 	background-color: #59b1eb;
 }
+
+/*-----------
+first
+-----------*/
+main.first {
+	width: 80%;  
+    margin: 0 auto;  
+    text-align: center;
+	padding-left: 10%;
+}
 /*-----------
 img
 -----------*/
