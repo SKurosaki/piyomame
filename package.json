@@ -1,0 +1,23 @@
+{
+  "name": "piyomame",
+  "version": "1.0.0",
+  "description": "description",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKurosaki/piyomame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SKurosaki/piyomame/issues"
+  },
+  "homepage": "https://github.com/SKurosaki/piyomame#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
