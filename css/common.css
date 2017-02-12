@@ -1,0 +1,214 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco';
+body {
+  width: 100%;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.75em;
+  margin: 0;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+  @media screen and (max-width: 479px) {
+    body {
+      font-size: 15px; } }
+
+a {
+  color: #333; }
+  a::visited {
+    color: #333; }
+  a:hover {
+    color: #ccc; }
+
+.no_anchor {
+  text-decoration: none; }
+
+.button,
+.button:visited {
+  width: 120px;
+  height: 32px;
+  text-align: center;
+  font-size: 14px;
+  color: #f5f5f5;
+  border-radius: 5px;
+  background: #333; }
+  @media screen and (max-width: 479px) {
+    .button,
+    .button:visited {
+      margin: 0 auto; } }
+  .button:hover,
+  .button:visited:hover {
+    cursor: pointer;
+    background-color: #dcdcdc;
+    color: #333; }
+
+hr {
+  width: 60%;
+  margin: 15px 40% 15px 0; }
+  @media screen and (max-width: 479px) {
+    hr {
+      width: 100%;
+      margin: 20px 0; } }
+
+.hr_100 {
+  width: 100%;
+  margin: 15px 40% 15px 0; }
+  @media screen and (max-width: 479px) {
+    .hr_100 {
+      margin: 20px 0; } }
+
+.header_box {
+  border: none;
+  width: 100%;
+  overflow: hidden; }
+
+.header_img {
+  margin-top: -100px;
+  width: 100%;
+  opacity: 0.5; }
+
+.header_text {
+  color: #f5f5f5;
+  font-size: 35px;
+  width: 160px;
+  margin: 25px auto;
+  text-align: center;
+  font-family: 'Sue Ellen Francisco', cursive;
+  border-bottom: 2px dashed #007B50;
+  line-height: 40px; }
+  .header_text a {
+    color: #f5f5f5;
+    text-decoration: none; }
+    .header_text a:hover {
+      color: #f5f5f5;
+      text-decoration: none; }
+  @media screen and (max-width: 479px) {
+    .header_text {
+      font-size: 20px; } }
+  .header_text_box {
+    position: absolute;
+    width: 100%;
+    background-color: #333;
+    margin: 0 auto;
+    height: 100%; }
+
+main ul {
+  margin: 0;
+  text-align: center; }
+  main ul li {
+    margin: 0 0 0 -40px;
+    width: 100%; }
+
+#gNav {
+  width: 100%;
+  margin: 0;
+  top: 90px;
+  position: fixed; }
+  #gNav ul {
+    list-style: none;
+    margin: 0 auto -16px;
+    padding: 0;
+    text-align: center;
+    height: 60px; }
+    #gNav ul li {
+      display: inline-block;
+      width: 23%;
+      font-size: 30px;
+      font-family: 'Sue Ellen Francisco', cursive;
+      color: #f5f5f5;
+      padding: 16px 0 8px; }
+      @media screen and (max-width: 479px) {
+        #gNav ul li {
+          font-size: 20px; } }
+      #gNav ul li:hover {
+        border-bottom: 8px solid  #007B50;
+        cursor: pointer; }
+      #gNav ul li a {
+        text-decoration: none;
+        color: #f5f5f5; }
+
+.common_width {
+  max-width: 990px;
+  margin: 0 auto; }
+  @media screen and (max-width: 1480px) {
+    .common_width {
+      width: 80%; } }
+  @media screen and (max-width: 768px) {
+    .common_width {
+      width: 85%; } }
+  @media screen and (max-width: 479px) {
+    .common_width {
+      width: 85%; } }
+  .common_width_100per {
+    width: 100%; }
+  .common_width_full-screen {
+    width: 100vw;
+    height: 100vh; }
+
+.common_align-center {
+  text-align: center; }
+
+.background_5db696 {
+  background-color: #5db696; }
+
+.background_b5c8a6 {
+  background-color: #b5c8a6; }
+
+h1 {
+  font-weight: bold;
+  font-size: 35px;
+  padding: .25em 0 .25em .75em;
+  border-left: 15px solid #333; }
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: .35em 0 .15em .75em;
+  border: 2px solid #333;
+  border-left: 25px solid #333;
+  width: 150px;
+  border-radius: 7px;
+  text-align: center;
+  padding-right: 1em;
+  font-family: 'Sue Ellen Francisco', cursive; }
+  @media screen and (max-width: 479px) {
+    h2 {
+      margin: 0.83em auto;
+      width: 75%; } }
+
+/*-----
+text
+-----*/
+.happy_Halloween {
+  font-family: 'NBC'; }
+
+.font_large {
+  font-size: 30px; }
+
+.font_regular {
+  font-size: 20px; }
+
+.bold {
+  font-weight: bold; }
+
+.text_left {
+  width: 50%;
+  padding-right: 50%; }
+
+.text_right {
+  width: 50%;
+  padding-left: 50%; }
+
+.common_text {
+  font-size: 1em;
+  padding: 0 0 0 25px; }
+  @media screen and (max-width: 479px) {
+    .common_text {
+      padding: 0;
+      width: 95%;
+      margin: 0 auto; } }
+  .common_text .old {
+    margin-bottom: 15px; }
+  .common_text ul {
+    list-style-position: inside;
+    line-height: 2.5; }
+    .common_text ul li {
+      text-align: left; }

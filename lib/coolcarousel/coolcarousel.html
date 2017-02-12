@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- 
+			This carousel example is created with jQuery and the carouFredSel-plugin.
+			http://jquery.com
+			http://caroufredsel.dev7studios.com
+		-->
+
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+		<meta name="description" value="This carousel imitates a tabs container using the pagination for the large tabs on the left of the container. The selected tab is transparent, showing a part of the container that is otherwise hidden behind the tabs." />
+		<meta name="keywords" value="tabs, container, jquery, pagination, tabcontainer, example" />
+		<title>Tabs container with large tabs on the left of the container</title>
+
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>
+		<script src="jquery.carouFredSel-6.2.0-packed.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#carousel').carouFredSel({
+					direction: 'up',
+					auto: false,
+					scroll: {
+						duration: 1000
+					},
+					pagination: {
+						container: '#pager',
+						anchorBuilder: function() {
+							return '<a href="#">'+ this.alt +'</a>';
+						}
+					}
+				});
+			});
+		</script>
+		<style type="text/css">
+			html, body {
+				height: 100%;
+				padding: 0;
+				margin: 0;
+			}
+			body {
+				background: #222;
+				min-height: 600px;
+			}
+			body * {
+				font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+				font-size: 14px;
+				color: #666;
+				line-height: 22px;
+			}
+			
+			#wrapper {
+				background: #666;
+				box-shadow: 0 0 10px #000;
+				width: 700px;
+				height: 350px;
+				padding: 30px;
+				margin: -205px 0 0 -380px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+			}
+			#carousel {
+				width: 700px;
+				height: 350px;
+				overflow: hidden;
+			}
+			#carousel img {
+				display: block;
+			}
+			#pager {
+				width: 200px;
+				position: absolute;
+				top: 30px;
+				left: 30px;
+			}
+			#pager a {
+				font-family: Impact, Verdana, Arial, sans-serif;
+				font-weight: bold;
+				font-size: 35px;
+				line-height: 35px;
+				color: #000;
+				text-decoration: none;
+				background: #666;
+				display: block;
+				height: 76px;
+				padding: 20px;
+				margin-bottom: 1px;
+			}
+			#pager a:hover {
+				color: #111;
+			}
+			#pager a.selected {
+				background: none;
+				color: #c30;
+			}
+						
+			#donate-spacer {
+				height: 100%;
+			}
+			#donate {
+				border-top: 1px solid #999;
+				width: 750px;
+				padding: 50px 75px;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+			#donate p, #donate form {
+				margin: 0;
+				float: left;
+			}
+			#donate p {
+				width: 650px;
+			}
+			#donate form {
+				width: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="carousel">
+				<img src="img/cod.jpg" alt="Call Of Duty" width="700" height="350" />
+				<img src="img/mgs.jpg" alt="Metal Gear Solid" width="700" height="350" />
+				<img src="img/gta.jpg" alt="Grand Theft Auto" width="700" height="350" />
+			</div>
+			<div id="pager"></div>
+		</div>
+
+		<div id="donate-spacer"></div>
+		<div id="donate">
+			<p>This carousel-example is created for your inspiration, you may use it for free in all of your projects.<br />
+				If you like it, please help me &quot;keep up the good work&quot; and donate.</p>
+			<form id="c-donate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+				<input type="hidden" name="cmd" value="_s-xclick" />
+				<input type="hidden" name="hosted_button_id" value="ENVLWPR4QMU3U" />
+				<input type="image" src="https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+				<img alt="" border="0" src="https://www.paypalobjects.com/nl_NL/i/scr/pixel.gif" width="1" height="1" />
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco';
+
+body {
+  background-color: #fff;
+  height: 95vh;
+}
+
+.main_visual {
+  width: 25%;
+  position: absolute;
+  left: 36.5%;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+.main_visual {
+  width: 80%;
+  top: calc((100% - 500px)/2);
+  left: 10%;
+}
+
+}

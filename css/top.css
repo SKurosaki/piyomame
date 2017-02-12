@@ -1,0 +1,111 @@
+.top {
+  padding: 2vw 0;
+  position: relative; }
+  @media screen and (max-width: 479px) {
+    .top {
+      padding: 0; } }
+  .top_img {
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+    @media screen and (max-width: 768px) {
+      .top_img {
+        bottom: 50px; } }
+    @media screen and (max-width: 479px) {
+      .top_img {
+        bottom: -120px;
+        width: 45%; } }
+    .top_img img {
+      width: 100%; }
+
+.update {
+  padding: 2vw 0; }
+  .update label,
+  .update .dataTables_info {
+    display: none; }
+  .update .dataTables_paginate {
+    width: 100%;
+    text-align: center; }
+  .update table {
+    text-align: left;
+    width: 100%; }
+  .update .date {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 1em; }
+    @media screen and (max-width: 768px) {
+      .update .date {
+        margin-top: 15px; } }
+  .update .title {
+    display: inline-block;
+    font-weight: bold;
+    color: #007B50;
+    margin-top: 25px; }
+    @media screen and (max-width: 768px) {
+      .update .title {
+        margin-top: 15px;
+        display: block;
+        margin-left: 1em; } }
+    @media screen and (max-width: 479px) {
+      .update .title {
+        margin: 0; } }
+  .update .description {
+    display: block;
+    text-align: left;
+    margin-left: 2em;
+    margin-bottom: 25px; }
+    @media screen and (max-width: 768px) {
+      .update .description {
+        margin-bottom: 15px; } }
+    @media screen and (max-width: 479px) {
+      .update .description {
+        margin-left: 0;
+        width: 100%; }
+        .update .description p {
+          margin: 5px 0; } }
+  @media screen and (max-width: 479px) {
+    .update td {
+      padding: 0; } }
+  .update .current {
+    font-weight: bold;
+    color: #007B50; }
+  .update .paginate_button {
+    padding: 5px; }
+
+.arrow {
+  display: inline-block;
+  padding-left: 20px;
+  width: 100%; }
+  .arrow::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    border-top: solid 3px #f8f9f9;
+    border-right: solid 3px #f8f9f9;
+    -ms-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    position: absolute;
+    bottom: 13%;
+    left: 50%; }
+  .arrow_top {
+    display: inline-block;
+    padding-left: 20px;
+    width: 100%;
+    display: none; }
+    .arrow_top::before {
+      content: '';
+      width: 30px;
+      height: 30px;
+      border: 0px;
+      border-top: solid 3px #f8f9f9;
+      border-right: solid 3px #f8f9f9;
+      -ms-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      position: fixed;
+      bottom: 5%;
+      right: 5%; }

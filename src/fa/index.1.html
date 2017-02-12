@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link href="lib/bxslider/jquery.bxslider.css" rel="stylesheet">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="lib/bxslider/jquery.bxslider.min.js"></script>
+  <title>ひよこ豆</title>
+</head>
+<body>
+<iframe class='header_box' src='header.html' scrolling='no' frameborder='0'></iframe>
+  <div class='common_width'>
+    <main>
+      <ul id='js-bxslider'>
+        <li><img src='img/page/top_01.png'><img src='img/page/top_01.png'><img src='img/page/top_01.png'></li>
+        <li><img src='img/page/top_02.png'></li>
+        <li><img src='img/page/top_03.png'></li>
+      </ul>
+      <div class='contents_text'>
+        <h1>About</h1>
+        <div class='contents_text_description'>
+          <p>
+            まーべる系を取り扱ったサイトです。
+          </p>
+          <p>
+            パロディやねつ造、ギャグを含む内容がございますので、苦手な方はブラウザバックでお戻りください。
+          </p>
+          <p>
+            詳細はINFOに記載しております。
+          </p>
+          <p>
+            <span class='contents_text_attention'>
+              画像の無断転載、加工は禁止です。
+            </span>
+          </p>
+          <p>
+            <span class='contents_text_attention'>
+              Please do NOT redistribute/edit without permission!
+            </span>
+            </p>
+        </div>
+      </div>
+      <div class='contents_text'>
+        <h1>Last Update</h1>
+        <div class='contents_text_description'>
+          <p>2016.XX.XX we have moved here</p>
+          <p>2016.XX.XX renewal open</p>
+          <p>2016.XX.XX renewal open</p>
+          <div class='button'>more...</div>
+        </div>
+      </div>
+      <div class='contents_text'>
+        <h1>Contact</h1>
+        <div class='contents_text_description'>
+          <p>ご意見、ご指摘、ご感想はtwitterよりどうぞ。</p>
+          <div class='profile'>
+            <h2>Master</h2>
+            <div>蒼佑(Twitter)</div>
+            <div>ロキ中心にヴィランズ厨。</div>
+          </div>
+        </div>
+      </div>
+      <div class='contents_text'>
+        <h1>About Link</h1>
+        <div class='contents_text_description'>
+          <p>
+            同士サイト様に限り、リンクフリー。
+          </p>
+          <p>
+            http://piyomame0506.web.fc2.com/
+          </p>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
+<script>
+  //bx
+  $(document).ready(function(){
+      $('#js-bxslider').bxSlider({
+        auto: true,
+        pause: 80000,
+        mode: 'fade',
+
+      });
+      $('.bx-viewport').css({
+        slideMargin: 0,
+        width: '100%'
+
+      });
+      $('.bx-wrapper').css({
+        height: '100%'
+      });
+
+    })
+</script>

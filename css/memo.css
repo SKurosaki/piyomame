@@ -1,0 +1,25 @@
+.memo {
+  width: 100%; }
+  .memo .soon {
+    width: 100%;
+    margin: 50px auto 0;
+    font-weight: bolder; }
+    @media screen and (max-width: 1105px) {
+      .memo .soon {
+        text-align: center;
+        margin: 30px auto 0; } }
+  .memo .soon_img {
+    overflow: hidden;
+    width: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 20%; }
+    @media screen and (max-width: 1105px) {
+      .memo .soon_img {
+        width: 80%;
+        right: 10px; } }
+    @media screen and (max-width: 768px) {
+      .memo .soon_img {
+        width: 100%; } }
+    .memo .soon_img img {
+      width: 100%; }

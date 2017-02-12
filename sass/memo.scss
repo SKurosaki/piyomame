@@ -1,0 +1,31 @@
+@import 'mixin';
+
+.memo {
+  width: 100%;
+  .soon {
+    width: 100%;
+    margin: 50px auto 0;
+    font-weight: bolder;
+    @include max-screen($breakpoint-tablet_big) {
+      text-align: center;
+      margin: 30px auto 0;
+    }
+  }
+  .soon_img {
+    overflow: hidden;
+    width: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 20%;
+    @include max-screen($breakpoint-tablet_big) {
+      width: 80%;
+      right: 10px;
+    }
+    @include max-screen($breakpoint-tablet) {
+      width: 100%;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}

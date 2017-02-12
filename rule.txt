@@ -1,0 +1,178 @@
+﻿[1-10 : group]
+1 : Marvel
+2 : D!sney
+3 : Star Wars
+4 : XD
+5 : Others
+6 : Spetial
+
+[11 - 100 : titles]
+
+* 11 : Villains
+* 12 : Heroes
+* 13 : Others
+
+* 14 : The Lion King
+* 15 : The Nightmare Before Christmas
+
+* 51 : Dark Side
+* 52 : Light Side
+* 53 : Others
+
+
+[101 - : characters] 
+
+* 101 : Loki Laufeyson ロキ ろき 邪神
+* 102 : Ronan the Accuser
+* 103 : Red Skull Johann Schmidt レッドスカル ヨハンシュミット レッスカさん れっどすかる よはんしゅみっと れっすかさん
+* 104 : Ultron
+* 105 : Malekith the Accursed マレキス まれきす
+* 106 : Thor Odinson ソー そー 兄上
+* 107 : Black Widow Natasha Romanoff ブラックウィドウ ナターシャロマノフ ぶらっくうぃどう なたーしゃろまのふ ロマ姐 姐さん
+* 108 : Hawkeye Clint Barton ホークアイ クリントバートン ほーくあい くりんとばーとん 鷹さん 
+* 109 : Hulk Bruce Banner ハルク ブルースバナー はるく ぶるーすばなー 博士
+* 110 : Iron Man Tony Stark アイアンマン トニースターク あいあんまん とにーすたーく 社長
+
+* 111 : Captain America Steve Rogers キャプテンアメリカ スティーブロジャース きゃぷてんあめりか すてぃーぶろじゃーす キャップ
+  112 : Nick Fury ニックフューリー にっくふゅーりー 長官
+  113 : Maria Hill
+* 114 : Phil Coulson
+* 115 : Ant-Man Scott Lang アントマン スコットラング あんとまん すこっとらんぐ
+* 116 : Magneto
+* 117 : Venom
+  118 : Spider-Man
+  119 : James Buchanan Barnes Bucky Winter Soldier バッキーバーンズ ウィンターソルジャー ウィンソル ばっきーばーんず うぃんたーそるじゃー うぃんそる 冬兵士
+  120 : Deadpool デッドプール デップー でっどぷーる でっぷー 俺ちゃん
+
+  121 : Groot グルート ぐるーと
+  122 : roketto
+  123 : Star
+  124 : Gamora
+  125 : Drax
+  126 : Frigga フリッガ ふりっが
+  127 : Destroyer デストロイヤー ですとろいやー
+
+   : Star Lord Peter Quill
+   : Gamora
+   : Drax the Destroyer
+
+  128 : Wasp
+
+
+   : Bill Cipher
+   : Mebel Pines
+   : Dipper Pines
+   : 
+
+* 300 : [The Lion King]
+* 301 : Scar スカー すかー おじさん
+* 302 : Mufasa ムファサ むふぁさ
+  303 : Shenzi シェンジ しぇんじ
+  304 : Banzai バンザイ ばんざい
+  305 : Ed エド えど
+* 306 : Hyenas ハイエナトリオ はいえなとりお
+  307
+  308
+  309
+
+  
+
+* 351 : Oogie Boogie ウーギーブギー うーぎーぶぎー 親分
+  352 : Lock
+  353 : Shock
+  354 : Barrel
+  355 : Lock,Shock and Barrel
+* 356 : Jack
+* 357 : Zero
+* 358 : Sally
+ 
+* 400 : [Big Hero 6]
+* 401 : Gogo Tomago ゴーゴートマゴ ゴーゴータマゴ ごーごーとまご ごーごーたまご ごご 
+* 402 : Honey Lemon ハニーレモン はにーれもん はにれも
+* 403 : Hiro Hamada ヒロハマダ ひろはまだ
+* 404 : Fred フレッド フレディ ふれっど
+* 405 : Wasabi ワサビ わさび
+* 406 : Baymax ベイマックス べいまっくす
+* 407 : Tadashi Hamada タダシハマダ ただしはまだ
+* 408 : Yokai ヨーカイ カブキマスクマン よーかい かぶきますくまん
+
+* 501 : Darth Vader ダースベイダー だーすべいだー 米田
+* 502 : Darth Maul ダースモール だーすもーる
+* 503 : Kylo Ren カイロレン かいろれん
+* 504 : Leia Organa Princess Leia レイアオーガナ レイア姫 れいあおーがな れいあひめ 将軍
+* 505 : Ewok イウォーク いうぉーく
+* 506 : 
+
+* 600 : [Gravity Falls]
+* 601 : Bill Cipher ビルサイファー びるさいふぁー
+* 602 : Mabel Pines メイベルパインズ めいべるぱいんず
+* 603 : Dipper Pines ディッパーパインズ でぃっぱーぱいんず
+* 604 : Robbie Valentino Robert Stacy Valentino ロビーヴァレンティノ ロビーステイシーヴァレンティノ ろびーヴぁれんてぃの ろびーすていしーヴぁれんてぃの
+* 605 : Pacifica Northwest パシフィカノースウエスト ぱしふぃかのーすうぇすと
+* 606 : Soos Ramirez Jesus Alzamirano Ramirez スース すーす
+
+ 1000 : 神兄弟
+ 1001 : 弟組
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+[1. MARVEL : MC]
+  Iron Man (2008)                               IM1
+  The Incredible Hulk (2008)                    IH1
+  Iron Man 2 (2010)                             IM2
+  Thor (2011)                                   TH1
+  Captain America : The FIrst Avenger (2011)    CA1
+  Marvel's The Avengers (2012)                  AV1
+
+  Iron Man 3 (2013)                             IM3
+  Thor: The Dark World (2013)                   TH2
+  Captain America: The Winter Soldier (2014)    CA2
+  Guardians of the Galaxy (2014)                GG1
+  Avengers: Age of Ultron (2015)                AV2
+  Ant-Man (2015)                                AM1
+
+  Captain America: Civil War (2016)             CA3
+  Doctor Strange (2016)                         DS1
+  Guardians of the Galaxy Vol. 2 (2017)         GG2
+  Spider-Man: Homecoming (2017)                 SM1
+  Thor: Ragnarok (2017)                         TH3
+  Black Panther (2018)                          BP1
+  Avengers: Infinity War (2018)                 AV3
+  Ant-Man and the Wasp (2018)                   AM2
+  Captain Marvel (2019)                         CM1
+  Untitled Avengers sequel (2019)               AV4
+
+
+
+
+[2. Disney : DI]
+  Lion King                                     LKG
+  the Nightmare Before Christmas                NBC
+  Big Hero 6                                    BH6
+
+
+[3. Star Wars : SW]
+  IV – A New Hope (1977)                        SW4
+  V – The Empire Strikes Back (1980)            SW5
+  VI – Return of the Jedi (1983)                SW6
+
+  I – The Phantom Menace (1999)                 SW1
+  II – Attack of the Clones (2002)              SW2
+  III – Revenge of the Sith (2005)              SW3
+
+  VII – The Force Awakens (2015)                SW7
+  VIII (2017)
+  IX (2019)

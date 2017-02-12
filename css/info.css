@@ -1,0 +1,38 @@
+.info {
+  padding: 2vw 0;
+  position: relative; }
+  @media screen and (max-width: 479px) {
+    .info {
+      padding: 0; } }
+  .info_img {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+    .info_img img {
+      width: 100%; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+section {
+  height: 300px;
+  margin: 100px 10px;
+  background-image: url("../img/page/info_mainvidual.png");
+  -webkit-background-size: 500px;
+  background-size: 500px;
+  -webkit-animation: bgscroll 25s linear infinite;
+  animation: bgscroll 25s linear infinite; }
+
+@-webkit-keyframes bgscroll {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 0 -500px; } }
+
+@keyframes bgscroll {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 0 -500px; } }

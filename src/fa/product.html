@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link href="../lib/bxslider/jquery.bxslider_02.css" rel="stylesheet">
+  <link href="../lib/colorbox/example2/colorbox.css" rel="stylesheet">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="../lib/bxslider/jquery.bxslider.min.js"></script>
+  <script src="../lib/colorbox/jquery.colorbox-min.js"></script>
+  <title>ひよこ豆</title>
+</head>
+<body>
+  <iframe class="header_box" src="../../header.html" scrolling="no" frameborder="0"></iframe>
+  <!--<div class="common_width">-->
+    <main>
+
+
+<div class="test_100 product_concept">
+  <div class="product_concept_select-button">
+    <div class="product_concept_select-button_w">white</div>
+    <div class="product_concept_select-button_b">black</div>
+  </div>
+</div>
+<div class=product_concept_contents>
+  <div class="product_concept_w">
+    <div class="product_concept_w_img">
+      <img src="../img/product/icon_new.png" class="product_new-icon">
+      <div class="product_concept_w_text">white</div>
+    </div>
+    <div class="product_lineup">
+      <ul class="js-lineup">
+        <li>
+          <img src="../img/product/product_lineup_w_01.png" alt="">
+          <img src="../img/product/product_lineup_w_02.png" alt="">
+          <img src="../img/product/product_lineup_w_03.png" alt="">
+        </li>
+        <li><img src="../img/product/product_lineup_w_01.png" alt=""></li>
+        <li><img src="../img/product/product_lineup_w_02.png" alt=""></li>
+        <li><img src="../img/product/product_lineup_w_03.png" alt=""></li>
+      <ul>
+    </div>
+  </div>
+  <div class="product_concept_b">
+    <div class="product_concept_b_img">
+      <div class="product_concept_b_text">black</div>
+    </div>
+    <div class="product_lineup">
+      <ul class="js-lineup">
+        <li>
+          <img src="../img/product/product_lineup_b_01.png" alt="">
+          <img src="../img/product/product_lineup_b_02.png" alt="">
+          <img src="../img/product/product_lineup_b_03.png" alt="">
+        </li>
+        <li><img src="../img/product/product_lineup_b_01.png" alt=""></li>
+        <li><img src="../img/product/product_lineup_b_02.png" alt=""></li>
+        <li><img src="../img/product/product_lineup_b_03.png" alt=""></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    <div class="test_100">
+      <div class="product_gallery">
+        <ul class="js-gallery">
+          <li><img src="../img/product/gallery_01.jpg" alt=""></li>
+          <li><img src="../img/product/gallery_02.jpg" alt=""></li>
+          <li><img src="../img/product/gallery_03.jpg" alt=""></li>
+          <li><img src="../img/product/gallery_04.jpg" alt=""></li>
+          <li><img src="../img/product/gallery_05.jpg" alt=""></li>
+          <li><img src="../img/product/gallery_06.jpg" alt=""></li>
+        </ul>
+        <div class="bx-pager product_gallery__pager">
+          <a data-slide-index="0" href="#"><img src="../img/product/gallery-thumb_01.png" alt="製品画像1"></a>
+          <a data-slide-index="1" href="#"><img src="../img/product/gallery-thumb_02.png" alt="製品画像2"></a>
+          <a data-slide-index="2" href="#"><img src="../img/product/gallery-thumb_03.png" alt="製品画像3"></a>
+          <a data-slide-index="3" href="#"><img src="../img/product/gallery-thumb_04.png" alt="製品画像4"></a>
+          <a data-slide-index="4" href="#"><img src="../img/product/gallery-thumb_05.png" alt="製品画像5"></a>
+          <a data-slide-index="5" href="#"><img src="../img/product/gallery-thumb_06.png" alt="製品画像6"></a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="test_100">
+      <div class="product_movie-container">
+        <a class="js-product_movie product-content-img-link" href="http://www.youtube.com/embed/VOJyrQa_WR4?rel=0&autoplay=1&amp;wmode=transparent">
+          <img src ="../img/product/product_movie-thumb.png" alt="製品動画">
+        </a>
+      </div>
+    </div>
+
+
+
+
+<div>
+  <p>test/test/test...</P>
+</div>
+<div>
+  <p>test/test/test...</P>
+</div>
+<div>
+  <p>test/test/test...</P>
+</div>
+<div>
+  <p>test/test/test...</P>
+</div>
+<div>
+  <p>test/test/test...</P>
+</div>
+<div>
+  <p>test/test/test...</P>
+</div>
+
+
+
+    </main>
+  <!--</div>-->
+</body>
+</html>
+<script>
+  $(document).ready(function(){
+    wW1 = $(window).width();
+    if (wW1 < 820) {
+      $('.product_concept_w').css({
+        'display': 'block'
+      });
+      $('.product_concept_b').css({
+        'display': 'none'
+      });
+      $('.product_concept_select-button_w').click(function(){
+        $('.product_concept_w').css({
+          'display': 'block'
+        });
+        $('.product_concept_b').css({
+          'display': 'none',
+          'transition': 'opacity .25s ease-in-out',
+          '-moz-transition': 'opacity .25s ease-in-out',
+          '-webkit-transition': 'opacity .25s ease-in-out'
+        });
+      });
+      $('.product_concept_select-button_b').click(function(){
+        $('.product_concept_w').css({
+          'display': 'none',
+          'transition': 'opacity .25s ease-in-out',
+          '-moz-transition': 'opacity .25s ease-in-out',
+          '-webkit-transition': 'opacity .25s ease-in-out'
+        });
+        $('.product_concept_b').css({
+          'display': 'block'
+        });
+      });
+    }else{
+      $('.product_concept_w').mouseover(function(){
+        $('.product_concept_w').css({
+          'opacity': '1'
+        });
+        $('.product_concept_b').css({
+          'opacity': '0.3',
+          'transition': 'opacity .25s ease-in-out',
+          '-moz-transition': 'opacity .25s ease-in-out',
+          '-webkit-transition': 'opacity .25s ease-in-out'
+        });
+      });
+      $('.product_concept_b').mouseover(function(){
+        $('.product_concept_w').css({
+          'opacity': '0.3',
+          'transition': 'opacity .25s ease-in-out',
+          '-moz-transition': 'opacity .25s ease-in-out',
+          '-webkit-transition': 'opacity .25s ease-in-out'
+        });
+        $('.product_concept_b').css({
+          'opacity': '1'
+        });
+      });
+    };
+  });
+// lineup bx-slider
+  $(document).ready(function(){
+    $(".js-lineup").bxSlider({
+      mode: "fade",
+      slideMargin: 10,
+      speed: 300,
+      pager: false
+    });
+
+// gallery bx-slider
+    $(".js-gallery").bxSlider({
+      mode: "fade",
+      speed: 300,
+      pagerCustom: ".bx-pager"
+    });
+
+// gallery movie
+    wW = $(window).width();
+    if (wW < 640) {
+      $(".js-product_movie").colorbox({
+        iframe: true,
+        innerWidth: 300,
+        innerHeight: 186,
+        transition: "fade",
+        speed: 360
+      });
+    }
+    else {
+    $(".js-product_movie").colorbox({
+        iframe: true, 
+        innerWidth: wW * 0.6,
+        innerHeight: wW * 0.4,
+        transition: "fade",
+        speed: 360
+      });
+    }
+	  $("#click").click(function(){ 
+		  $("#click").css({
+        "background-color": "#f00",
+        "color": "#fff",
+        "cursor": "inherit",
+      });
+      return false;
+    });
+  });
+</script>

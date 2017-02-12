@@ -1,0 +1,146 @@
+@import 'mixin';
+
+
+.top {
+  padding: 2vw 0;
+  position: relative;
+  @include max-screen($breakpoint-mobile) {
+    padding: 0;
+  }
+
+  &_img {
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    @include max-screen($breakpoint-tablet) {
+      bottom: 50px;
+    }
+    @include max-screen($breakpoint-mobile) {
+      bottom: -120px;
+      width: 45%;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.update {
+  padding: 2vw 0;
+
+  label,
+  .dataTables_info {
+    display: none;
+  }
+  .dataTables_paginate {
+    width: 100%;
+    text-align: center;
+  }
+  table {
+    text-align: left;
+    width: 100%;
+  }
+  .date {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 1em;
+    @include max-screen($breakpoint-tablet) {
+      margin-top: 15px;
+    }
+  }
+  .title {
+    display: inline-block;
+    font-weight: bold;
+    color: #007B50;
+    margin-top: 25px;
+    @include max-screen($breakpoint-tablet) {
+      margin-top: 15px;
+      display: block;
+      margin-left: 1em;
+    }
+    @include max-screen($breakpoint-mobile) {
+      margin: 0;
+    }
+  }
+  .description {
+    display: block;
+    text-align: left;
+    margin-left: 2em;
+    margin-bottom: 25px;
+    @include max-screen($breakpoint-tablet) {
+      margin-bottom: 15px;
+    }
+    @include max-screen($breakpoint-mobile) {
+      margin-left: 0;
+      width: 100%;
+      p {
+        margin: 5px 0;
+      }
+    }
+  }
+  td {
+    @include max-screen($breakpoint-mobile) {
+      padding: 0;
+    }
+  }
+  .current {
+    font-weight: bold;
+    color: #007B50;
+  }
+  .paginate_button {
+    padding: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+.arrow{
+  display: inline-block;
+  padding-left: 20px;
+  width: 100%;
+
+  &::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    border-top: solid 3px #f8f9f9;
+    border-right: solid 3px #f8f9f9;
+    -ms-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    position: absolute;
+    bottom: 13%;
+    left: 50%;
+  }
+
+  &_top{
+    display: inline-block;
+    padding-left: 20px;
+    width: 100%;
+    display: none;
+
+    &::before{
+      content: '';
+      width: 30px;
+      height: 30px;
+      border: 0px;
+      border-top: solid 3px #f8f9f9;
+      border-right: solid 3px #f8f9f9;
+      -ms-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      position: fixed;
+      bottom: 5%;
+      right: 5%;
+    }
+  }
+}
+
