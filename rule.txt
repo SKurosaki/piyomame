@@ -37,7 +37,7 @@
   112 : Nick Fury ニックフューリー にっくふゅーりー 長官
   113 : Maria Hill
 * 114 : Phil Coulson
-* 115 : Ant-Man Scott Lang アントマン スコットラング あんとまん すこっとらんぐ
+* 115 : Ant Man Scott Lang アントマン スコットラング あんとまん すこっとらんぐ
 * 116 : Magneto
 * 117 : Venom
   118 : Spider-Man
@@ -45,7 +45,7 @@
   120 : Deadpool デッドプール デップー でっどぷーる でっぷー 俺ちゃん
 
   121 : Groot グルート ぐるーと
-  122 : roketto
+  122 : Rocket Raccoon ロケットラクーン ろけっとらくーん
   123 : Star
   124 : Gamora
   125 : Drax
@@ -57,12 +57,76 @@
    : Drax the Destroyer
 
   128 : Wasp
+  129 : Iron Fist 
+  130 : Black Panther
+  131 : Herman Schultz Shocker ハーマンシュルツ ショッカー はーまんしゅるつ しょっかー
+
+
+  $('.bucky').append('James Buchanan Barnes Bucky Winter Soldier バッキーバーンズ ウィンターソルジャー ウィンソル ばっきーばーんず うぃんたーそるじゃー うぃんそる 冬兵士');
+  $('.cancer').append('Cancer キャンサー きゃんさー');
+  $('.cap').append('Captain America Steve Rogers キャプテンアメリカ スティーブロジャース きゃぷてんあめりか すてぃーぶろじゃーす キャップ');
+  $('.carina').append('Carina カリーナ かりーな');
+  $('.collector').append('Collector Taneleer Tivan コレクター タニリーアティバン これくたー たにりーあてぃばん');
+  $('.dark_elf').append('Dark Elf ダークエルフ だーくえるふ');
+  $('.deadpool').append('Deadpool デッドプール デップー でっどぷーる でっぷー 俺ちゃん');
+  $('.destroyer').append('Destroyer デストロイヤー ですとろいやー');
+  $('.frigga').append('Frigga フリッガ ふりっが');
+  $('.fury').append('Nick Fury ニックフューリー にっくふゅーりー 長官');
+  $('.green_goblin').append('Green Goblin グリーンゴブリン ぐりーんごぶりん');
+  $('.groot').append('Groot グルート ぐるーと');
+  $('.hawk').append('Hawkeye Clint Barton ホークアイ クリントバートン ほーくあい くりんとばーとん 鷹さん');
+  $('.hit_mon').append('Hit Monkey ヒットモンキー ひっともんきー');
+  $('.hulk').append('Hulk Bruce Banner ハルク ブルースバナー はるく ぶるーすばなー 博士');
+  $('.juggernaut').append('Juggernaut ジャガーノート じゃがーのーと');
+  $('.loki').append('Loki Laufeyson ロキ ろき 邪神 로키');
+  $('.magneto').append('Magneto Erik Magnus Lehnsherr マグニート エリック レーンシャー　まぐにーと えりっく れーんしゃー');
+  $('.malekith').append('Malekith the Accursed マレキス まれきす');
+  $('.modok').append('MODOK M.O.D.O.K. モードック もーどっく');
+  $('.nat').append('Black Widow Natasha Romanoff ブラックウィドウ ナターシャロマノフ ぶらっくうぃどう なたーしゃろまのふ ロマ姐 姐さん');
+  $('.red_skull').append('Red Skull Johann Schmidt レッドスカル ヨハンシュミット レッスカさん れっどすかる よはんしゅみっと れっすかさん 레드 스컬');
+  $('.spidey').append('Spider-Man Peter Benjamin Parker Spidey スパイダーマン ピーターパーカー スパイディ すぱいだーまん ぴーたーぱーかー すぱいでぃ 親愛なる隣人');
+  $('.thor').append('Thor Odinson ソー そー 兄上 토르');
+  $('.tony').append('Iron Man IronMan  Tony Stark アイアンマン トニースターク あいあんまん とにーすたーく 社長');
+  $('.venom').append('Venom ヴェノム ヴぇのむ べのむ');
+  $('.wasp').append('wWasp ワスプ わすぷ');
+  $('.zemo').append('Baron Zemo バロンジモ ばろんじも');
+
+
+
+
+
+
+
+
+
+
+
+  251 : Akira Akatsuki アカツキアキラ あかつきあきら
+  252 : Chris Taylor クリステイラー くりすていらー
+  253 : Edward Grant エドワードグラント えどわーどぐらんと
+  254 : Hikaru Akatsuki アカツキヒカル あかつきひかる
+  255 : Jessica Shannon ジェシカシャノン じぇしかしゃのん
+
+
+
+
+
+
+
+
 
 
    : Bill Cipher
    : Mebel Pines
    : Dipper Pines
    : 
+
+
+
+
+
+
+
 
 * 300 : [The Lion King]
 * 301 : Scar スカー すかー おじさん

@@ -92,6 +92,19 @@
   .paginate_button {
     padding: 5px;
   }
+  .img_sample {
+    width: 100%;
+    filter: blur(0.7px);
+    img {
+      width: 60px;
+      @include max-screen($breakpoint-tablet) {
+        width: 35px;
+      }
+      @include max-screen($breakpoint-mobile) {
+        width: 45px;
+      }
+    }
+  }
 }
 
 
