@@ -21,6 +21,10 @@ a {
 .no_anchor {
   text-decoration: none; }
 
+.clickable {
+  color: #007B50;
+  text-decoration: underline; }
+
 .button,
 .button:visited {
   width: 120px;

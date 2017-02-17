@@ -379,10 +379,3 @@
     top: 100%; } }
   .fan-art .modalClose {
     padding: 80px 10px; }
-  .fan-art #a_list dt {
-    display: block;
-    cursor: pointer;
-    margin-top: 50px; }
-  .fan-art #a_list dd {
-    display: none;
-    padding: 0 25px; }
