@@ -1,9 +1,9 @@
 ﻿[1-10 : group]
 1 : Marvel
-2 : D!sney
+2 : Disney
 3 : Star Wars
 4 : XD
-5 : Others
+5 : TV Drama
 6 : Spetial
 
 [11 - 100 : titles]
@@ -20,27 +20,54 @@
 * 53 : Others
 
 
-[101 - : characters] 
+<Marvel>
+
+[villains]
 
 * 101 : Loki Laufeyson ロキ ろき 邪神
 * 102 : Ronan the Accuser
 * 103 : Red Skull Johann Schmidt レッドスカル ヨハンシュミット レッスカさん れっどすかる よはんしゅみっと れっすかさん
-* 104 : Ultron
+  104 : うるとろん Ultron
 * 105 : Malekith the Accursed マレキス まれきす
+  106 : 
+  107 : 
+  108 : 
+  109 :
+  120 : 
+
+[Avengers] 
+ 
+
 * 106 : Thor Odinson ソー そー 兄上
 * 107 : Black Widow Natasha Romanoff ブラックウィドウ ナターシャロマノフ ぶらっくうぃどう なたーしゃろまのふ ロマ姐 姐さん
 * 108 : Hawkeye Clint Barton ホークアイ クリントバートン ほーくあい くりんとばーとん 鷹さん 
 * 109 : Hulk Bruce Banner ハルク ブルースバナー はるく ぶるーすばなー 博士
 * 110 : Iron Man Tony Stark アイアンマン トニースターク あいあんまん とにーすたーく 社長
-
 * 111 : Captain America Steve Rogers キャプテンアメリカ スティーブロジャース きゃぷてんあめりか すてぃーぶろじゃーす キャップ
   112 : Nick Fury ニックフューリー にっくふゅーりー 長官
   113 : Maria Hill
 * 114 : Phil Coulson
 * 115 : Ant Man Scott Lang アントマン スコットラング あんとまん すこっとらんぐ
+
+  121 :
+  122 :
+  123 :
+  124 :
+  125 :
+  126 :
+  127 :
+  128 :
+  129 :
+  130 :
+
+
+
+
+
+
 * 116 : Magneto
-* 117 : Venom
-  118 : Spider-Man
+* 117 : Venom ヴェノム ヴぇのむ べのむ
+  118 : Spider-Man Peter Benjamin Parker Spidey スパイダーマン ピーターパーカー スパイディ すぱいだーまん ぴーたーぱーかー すぱいでぃ 親愛なる隣人
   119 : James Buchanan Barnes Bucky Winter Soldier バッキーバーンズ ウィンターソルジャー ウィンソル ばっきーばーんず うぃんたーそるじゃー うぃんそる 冬兵士
   120 : Deadpool デッドプール デップー でっどぷーる でっぷー 俺ちゃん
 
@@ -49,6 +76,13 @@
   123 : Star
   124 : Gamora
   125 : Drax
+  126 : よんどぅ
+   Collector Taneleer Tivan コレクター タニリーアティバン これくたー たにりーあてぃばん
+  Carina カリーナ かりーな
+
+ 
+ 
+ 
   126 : Frigga フリッガ ふりっが
   127 : Destroyer デストロイヤー ですとろいやー
 
@@ -61,11 +95,11 @@
   130 : Black Panther
   131 : Herman Schultz Shocker ハーマンシュルツ ショッカー はーまんしゅるつ しょっかー
 
+  Cancer キャンサー きゃんさー
+ 
 
-  $('.bucky').append('James Buchanan Barnes Bucky Winter Soldier バッキーバーンズ ウィンターソルジャー ウィンソル ばっきーばーんず うぃんたーそるじゃー うぃんそる 冬兵士');
-  $('.cancer').append('Cancer キャンサー きゃんさー');
-  $('.cap').append('Captain America Steve Rogers キャプテンアメリカ スティーブロジャース きゃぷてんあめりか すてぃーぶろじゃーす キャップ');
-  $('.carina').append('Carina カリーナ かりーな');
+
+
   $('.collector').append('Collector Taneleer Tivan コレクター タニリーアティバン これくたー たにりーあてぃばん');
   $('.dark_elf').append('Dark Elf ダークエルフ だーくえるふ');
   $('.deadpool').append('Deadpool デッドプール デップー でっどぷーる でっぷー 俺ちゃん');
@@ -174,6 +208,22 @@
 * 604 : Robbie Valentino Robert Stacy Valentino ロビーヴァレンティノ ロビーステイシーヴァレンティノ ろびーヴぁれんてぃの ろびーすていしーヴぁれんてぃの
 * 605 : Pacifica Northwest パシフィカノースウエスト ぱしふぃかのーすうぇすと
 * 606 : Soos Ramirez Jesus Alzamirano Ramirez スース すーす
+
+* 800 : <Sherlock>
+* 801 : Sherlock Holmes シャーロックホームズ しゃーろっくほーむず
+* 802 : John Watson ジョンワトソン じょんわとそん
+  803 : まいくろふと
+  804 : めりー
+  805 : もりー
+  806 : もりあーてぃー
+  807 : はどそんさん
+  808 : れすとれーじ
+  809 : あんだーそん
+  810 : さりー
+  811 : えら
+  812
+
+  
 
  1000 : 神兄弟
  1001 : 弟組

@@ -216,3 +216,107 @@ text
     line-height: 2.5; }
     .common_text ul li {
       text-align: left; }
+
+.tips,
+.tips_sp {
+  overflow: hidden;
+  -webkit-animation: animation-tips 1s cubic-bezier(0, 1.29, 1, 1);
+  animation: animation-tips 1s cubic-bezier(0, 1.29, 1, 1);
+  right: 0; }
+
+@keyframes animation-tips {
+  from {
+    -ms-transform: translateX(1130px);
+    -webkit-transform: translateX(1130px);
+    transform: translateX(1130px); }
+  to {
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
+  .tips img,
+  .tips_sp img {
+    width: 100%; }
+
+.tips {
+  width: 18%;
+  position: fixed;
+  bottom: 10px; }
+  @media screen and (max-width: 768px) {
+    .tips {
+      right: -13px; } }
+  @media screen and (max-width: 479px) {
+    .tips {
+      display: none; } }
+
+.tips_sp {
+  display: none; }
+  @media screen and (max-width: 479px) {
+    .tips_sp {
+      display: block;
+      width: 25%;
+      top: 0;
+      position: absolute; } }
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: none; }
+
+.overLay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(200, 200, 200, 0.9);
+  width: 100%;
+  height: 100vh;
+  z-index: 10; }
+
+.modal .inner {
+  position: fixed;
+  z-index: 11;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  width: 30%; }
+  @media screen and (max-width: 768px) {
+    .modal .inner {
+      width: 60%; } }
+  .modal .inner ul {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    vertical-align: top;
+    list-style-type: square;
+    list-style-position: inside; }
+    .modal .inner ul .list_title {
+      list-style-type: none;
+      font-weight: bold; }
+    .modal .inner ul .list_last {
+      text-align: left; }
+  .modal .inner p {
+    padding: 10px; }
+
+@keyframes modal {
+  0% {
+    top: -100%; }
+  100% {
+    top: 50%; } }
+
+@keyframes modalClose {
+  0% {
+    top: 50%; }
+  100% {
+    top: 100%; } }
+
+.modalClose {
+  padding: 80px 10px; }
+
+.new {
+  background-color: #333;
+  color: #5db696;
+  content: 'new'; }
