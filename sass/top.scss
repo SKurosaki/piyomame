@@ -27,6 +27,9 @@
   }
 }
 
+//----------------------
+//       update
+//----------------------
 .update {
   padding: 2vw 0;
 
@@ -103,6 +106,17 @@
       @include max-screen($breakpoint-mobile) {
         width: 45px;
       }
+    }
+  }
+  ul {
+    list-style-position: inside;
+    text-align: left;
+    margin: 0 0 20px;
+    li{
+      list-style-type: square;
+    }
+    .tab_name {
+      list-style: none;
     }
   }
 }

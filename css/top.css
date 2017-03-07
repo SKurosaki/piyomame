@@ -84,6 +84,14 @@
       @media screen and (max-width: 479px) {
         .update .img_sample img {
           width: 45px; } }
+  .update ul {
+    list-style-position: inside;
+    text-align: left;
+    margin: 0 0 20px; }
+    .update ul li {
+      list-style-type: square; }
+    .update ul .tab_name {
+      list-style: none; }
 
 .arrow {
   display: inline-block;
