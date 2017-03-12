@@ -224,7 +224,7 @@
   .fan-art .dataTables_length {
     display: none; }
   .fan-art .dataTables_filter {
-    position: fixed;
+    position: absolute;
     top: 170px;
     left: calc((100% - 176px)/2); }
     @media screen and (max-width: 1480px) {
