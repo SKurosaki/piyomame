@@ -317,7 +317,7 @@
 
 
     &_filter {
-      position: fixed;
+      position: absolute;
       top: 170px;
       left: calc((100% - 176px)/2);
       @include max-screen($breakpoint-pc_tablet) {
