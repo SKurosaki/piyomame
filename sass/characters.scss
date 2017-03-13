@@ -1,0 +1,188 @@
+@import 'mixin';
+@import 'common';
+
+
+.characters {
+  padding: 2vw 0;
+  // common
+  h1 {
+    font-family: 'Walter Turncoat', cursive;
+    padding: 0.25em 0;
+    margin: 0;
+    border: none;
+  }
+
+  // index
+  .table_c_name {
+    display: block !important;
+    color: #333;
+  }
+  .soon {
+    display: none !important;
+  }
+
+  //dic
+  .related {
+    margin: 10px auto;
+    &_img {
+      display: inline-block;
+      li {
+        vertical-align: middle;
+        img {
+          min-width: 100%;
+        }
+      }
+    }
+    .cos_none {
+      display: none;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .main {
+    &_box {
+      width: 100%;
+      margin: 0 auto;
+    }
+    &_visual {
+      width: 45%;
+      display: inline-block;
+      vertical-align: middle;
+      @include max-screen($breakpoint-mobile) {
+        width: 100%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    &_description {
+      width: 45%;
+      display: inline-block;
+      vertical-align: middle;
+      padding-left: 6%;
+      height: 445px;
+      overflow: auto;
+      cursor: default;
+      @include max-screen($breakpoint-mobile) {
+        width: 100%;
+        overflow: visible;
+        padding: 0;
+        height: 100%;
+      }
+
+      .height,
+      .actor {
+        font-weight: bold;
+      }
+      .height {
+        &:before {
+          content: "Height : ";
+          font-weight: normal;
+        }
+        &:after {
+          content: "㎝";
+        }
+      }
+      .actor:before {
+        content: "Played by : ";
+        font-weight: normal;
+      }
+      .cv:after {
+        content: " (voice)";
+        font-weight: normal;
+      }
+    }
+  }
+
+.bx-wrapper img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.bx-viewport {
+      height: 100% !important;
+}
+
+  .list_thumb {
+    &_box {
+      width: 100%;
+      @include max-screen($breakpoint-mobile) {
+        text-align: center;
+      }
+      &_50p{
+        width: 100%;
+        padding-top: 20px;
+        vertical-align: top;
+        display: inline-block;
+      }
+    }
+    width: 60px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    display: inline-block;
+    @include max-screen($breakpoint-mobile) {
+      margin: 0;
+    }
+  }
+
+  .a_list {
+    dt {
+      display:block;
+      cursor:pointer;
+    }
+    dd{
+      display: block;
+      @include max-screen($breakpoint-mobile) {
+        display: none;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+        li{
+          list-style: square;
+          cursor: pointer;
+        }
+        .nodata {
+          cursor: default;
+          color: #333;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+
+ 
+.active:active {
+
+}
+
+
+
+  .test {
+    width: 10px;
+  }
+
+
+
+
+
+
+
+  .ca_none {
+    display: none;
+  }
+  .ca1-i {
+    display: inline-block; 
+  }
+
+  .bx-controls-auto,
+  .bx-prev,
+  .bx-next {
+    display: none;
+  }
+}
+
