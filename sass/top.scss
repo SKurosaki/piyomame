@@ -27,6 +27,9 @@
   }
 }
 
+//----------------------
+//       update
+//----------------------
 .update {
   padding: 2vw 0;
 
@@ -91,6 +94,30 @@
   }
   .paginate_button {
     padding: 5px;
+  }
+  .img_sample {
+    width: 100%;
+    filter: blur(0.7px);
+    img {
+      width: 60px;
+      @include max-screen($breakpoint-tablet) {
+        width: 35px;
+      }
+      @include max-screen($breakpoint-mobile) {
+        width: 45px;
+      }
+    }
+  }
+  ul {
+    list-style-position: inside;
+    text-align: left;
+    margin: 0 0 20px;
+    li{
+      list-style-type: square;
+    }
+    .tab_name {
+      list-style: none;
+    }
   }
 }
 
