@@ -29,12 +29,6 @@ a {
   text-decoration: none;
 }
 
-.clickable {
-  color: #007B50;
-  text-decoration: underline;
-}
-
-
 //button
 .button,
 .button:visited {
@@ -193,6 +187,12 @@ main {
   }
 }
 
+//margin
+.margin {
+  &_0 {
+    margin: 0;
+  }
+}
 
 
 
@@ -305,19 +305,20 @@ text
   position: fixed;
   bottom: 10px;
   @include max-screen($breakpoint-tablet) {
-    right: -13px;
-  }
-  @include max-screen($breakpoint-mobile) {
     display: none;
   }
 }
 .tips_sp {
   display: none;
-  @include max-screen($breakpoint-mobile) {
+  @include max-screen($breakpoint-tablet) {
     display: block;
-    width: 25%; 
+    right: -13px;
+    width: 15%;
     top: 0;
     position: absolute;
+  }
+  @include max-screen($breakpoint-mobile) {
+    width: 25%;
   }
 }
 .modal {
@@ -338,7 +339,7 @@ text
   height: 100vh;
   z-index: 10;
 }
-.modal .inner {
+.modal [class^='inner'] {
   position: fixed;
   z-index: 11;
   top: 50%;

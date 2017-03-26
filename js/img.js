@@ -1,7 +1,6 @@
 
 $(function(addSearchWord){
   // -- 1 : MA --
-
   $('.antman').append('Ant Man Scott Lang アントマン スコットラング あんとまん すこっとらんぐ').next().children('.fan-art_img').addClass('tab1-i tab1_2-i tab1_2_11-i');
   $('.bucky').append('James Buchanan Barnes Bucky Winter Soldier バッキーバーンズ ウィンターソルジャー ウィンソル ばっきーばーんず うぃんたーそるじゃー うぃんそる 冬兵士').next().children('.fan-art_img').addClass('tab1-i tab1_1-i tab1_2-i');
   $('.cancer').append('Cancer キャンサー きゃんさー').next().children('.fan-art_img').addClass('tab1-i tab1_1-i');
@@ -165,97 +164,4 @@ $(function(addSearchWord){
 });
 
 
-  //search-box scroll
-  $(function(){
-    $(window).scroll(function(){
-      var obj_t_pos = $('#datatables_filter').offset().top;
-      var scr_count = $(document).scrollTop() + (window.innerHeight/2);
-      if(scr_count > obj_t_pos){
-        $('#datatables_filter').addClass('fixed');
-        $('#datatables_filter').removeClass('dataTables_filter');
-      }else{
-        $('#datatables_filter').removeClass();
-      }
-      var top = $(window).scrollTop();
-      if( top < 200) {
-        $('#datatables_filter').removeClass();
-        $('#datatables_filter').addClass('dataTables_filter');
-      }
-    });
-  });
 
-  //first tab
-  $(document).ready(function() {
-    $('.tab li:first').addClass('active');
-    $('.tab li').click(function() {
-      $('.tab li').removeClass('active');
-      $(this).addClass('active');
-      $('.area').hide();
-      $('.area_children').hide(); 
-      $($(this).find('a').attr('href')).fadeIn();
-      return false;
-    });
-  });
-
-  //second tab
-  $(document).ready(function() {
-    $('.tab_children li:first').addClass('active');
-    $('.tab_children li').click(function() {
-      $('.tab_children li').removeClass('active');
-      $(this).addClass('active');
-      $('.area_children').hide();
-      $($(this).find('a').attr('href')).fadeIn();
-      return false;
-    });
-  });
-
-  //third tab
-  $(document).ready(function() {
-    $('.tab_g_children li:first').addClass('active');
-    $('.tab_g_children li').click(function() {
-      $('.tab_g_children li').removeClass('active');
-      $(this).addClass('active');
-    });
-  });
-
-  $('.all').click(function(){
-    $('.fan-art_img').show();
-  });
-
-  $('[class^="tab"]').click(function(c) {
-    var imgtab = '.'+ this.className + "-i"
-    $(".fan-art_img").css('display','none');
-    $(imgtab).show();
-    $('.paginate_button').click(function(){
-      $('.fan-art_img').hide();
-      $(imgtab).show();
-    });
-  });
-
-  $(function(){
-    $(".modalOpen").click(function(){
-      var navClass = $(this).attr("class"),
-      href = $(this).attr("href");
-        if(href === "#modal02") {
-          $(href).children(".inner").css("animation","modal 0.5s forwards");
-        }
-        $(href).fadeIn();
-        $(this).addClass("open");
-        return false;
-    });
-    $(".modalClose").click(function(){
-      var parentsID = $(this).parents(".modal").attr("id");
-      if(parentsID === "modal02") {
-        $(this).parents(".modal").children(".inner").css("animation","modalClose 0.5s forwards");
-      }
-      $(this).parents(".modal").fadeOut();
-      $(".modalOpen").removeClass("open");
-      return false;
-    });
-  });
-
-  $(function(){
-    $("#a_list dt").on("click", function() {
-      $(this).next().slideToggle();
-    });
-  });
