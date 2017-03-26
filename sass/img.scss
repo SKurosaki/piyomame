@@ -343,7 +343,7 @@
         transform: translate(-50%,-50%);
       }
       @include max-screen($breakpoint-mobile_ip5) {
-        width: 53%;
+        width: 100%;
       }
     }
 

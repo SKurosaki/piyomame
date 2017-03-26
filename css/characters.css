@@ -320,3 +320,187 @@ text
   background-color: #333;
   color: #5db696;
   content: 'new'; }
+
+.characters {
+  padding: 2vw 0;
+  /*------------------------------
+            index
+------------------------------*/
+  /*------------------------------
+              dic
+------------------------------*/ }
+  .characters h1 {
+    font-family: 'Walter Turncoat', cursive;
+    padding: 0.25em 0;
+    margin: 0;
+    border: none; }
+  .characters .soon {
+    display: none !important; }
+  .characters .title_note {
+    font-size: 85%; }
+  .characters .table-box_list .fan-art_img {
+    width: 164px !important; }
+    @media screen and (max-width: 768px) {
+      .characters .table-box_list .fan-art_img {
+        width: 100% !important; } }
+  .characters .table-box_list .fan-art .filtr-item {
+    height: 145px !important; }
+  .characters .table-box_list tr {
+    position: relative;
+    overflow: hidden;
+    margin: 3px; }
+    @media screen and (max-width: 768px) {
+      .characters .table-box_list tr {
+        width: 33%; } }
+  .characters .table-box_list .filtr-item {
+    height: auto !important; }
+  .characters .table-box_list .table_c_name {
+    display: block !important;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    color: #f5f5f5;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transition: .3s;
+    transition: .3s;
+    font-family: 'Walter Turncoat', cursive; }
+    @media screen and (max-width: 768px) {
+      .characters .table-box_list .table_c_name {
+        bottom: 0px;
+        font-size: 14px;
+        background: rgba(0, 0, 0, 0.4); } }
+  .characters .table-box_list tr:hover .table_c_name {
+    bottom: 0;
+    height: 30px; }
+  .characters .simplefilter li {
+    width: calc(92% / 4); }
+    @media screen and (max-width: 1480px) {
+      .characters .simplefilter li {
+        width: calc(90% / 4);
+        min-width: 12%; } }
+    @media screen and (max-width: 1105px) {
+      .characters .simplefilter li {
+        width: calc(85% / 4);
+        min-width: 10.8%; } }
+    @media screen and (max-width: 479px) {
+      .characters .simplefilter li {
+        min-width: 92px; } }
+  .characters .related_img {
+    display: inline-block; }
+    .characters .related_img li {
+      vertical-align: middle; }
+      .characters .related_img li img {
+        min-width: 100%; }
+  .characters .related .none_cos {
+    display: none; }
+  .characters .related a {
+    text-decoration: none; }
+  .characters .main_box {
+    width: 100%;
+    margin: 0 auto; }
+  .characters .main_visual {
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle; }
+    @media screen and (max-width: 479px) {
+      .characters .main_visual {
+        width: 100%; } }
+    .characters .main_visual img {
+      width: 100%; }
+  .characters .main_description {
+    width: 53%;
+    display: inline-block;
+    vertical-align: middle;
+    height: 445px;
+    overflow: auto;
+    cursor: default; }
+    @media screen and (max-width: 479px) {
+      .characters .main_description {
+        width: 100%;
+        overflow: visible;
+        padding: 0;
+        height: 100%; } }
+    .characters .main_description .height,
+    .characters .main_description .height_nodata,
+    .characters .main_description .actor {
+      font-weight: bold; }
+    .characters .main_description .height:before, .characters .main_description .height_nodata:before {
+      content: "Height : ";
+      font-weight: normal; }
+    .characters .main_description .height:after {
+      content: "㎝"; }
+    .characters .main_description .height_nodata:after {
+      content: ""; }
+    .characters .main_description .actor:before {
+      content: "Played by : ";
+      font-weight: normal; }
+    .characters .main_description .cv:after {
+      content: " (voice)";
+      font-weight: normal; }
+  .characters .bx-wrapper img {
+    width: 100%;
+    display: block;
+    margin: 0 auto; }
+  .characters .bx-viewport {
+    height: 100% !important; }
+  .characters .list_thumb {
+    width: 60px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    display: inline-block; }
+    .characters .list_thumb_box {
+      width: 100%; }
+      @media screen and (max-width: 479px) {
+        .characters .list_thumb_box {
+          text-align: left; } }
+      .characters .list_thumb_box_50p {
+        width: 100%;
+        padding-top: 20px;
+        vertical-align: top;
+        display: inline-block; }
+    @media screen and (max-width: 479px) {
+      .characters .list_thumb {
+        margin: 0; } }
+  .characters .a_list dt {
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 2em; }
+    @media screen and (max-width: 479px) {
+      .characters .a_list dt {
+        line-height: 3em; } }
+  .characters .a_list dd {
+    display: block; }
+    @media screen and (max-width: 479px) {
+      .characters .a_list dd {
+        display: none; } }
+    .characters .a_list dd ul {
+      margin: 0;
+      padding: 0;
+      cursor: pointer; }
+      .characters .a_list dd ul li {
+        list-style: square;
+        cursor: pointer;
+        line-height: 2em; }
+        @media screen and (max-width: 479px) {
+          .characters .a_list dd ul li {
+            line-height: 3em; } }
+      .characters .a_list dd ul .nodata {
+        cursor: default;
+        color: #333;
+        text-decoration: none; }
+  .characters .test {
+    width: 10px; }
+  .characters .none_ca {
+    display: none; }
+  .characters .ca1-i {
+    display: inline-block; }
+  .characters .bx-controls-auto,
+  .characters .bx-prev,
+  .characters .bx-next {
+    display: none; }
+  .characters .active {
+    font-weight: bold;
+    color: #007B50; }
