@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .top {
   padding: 2vw 0;
   position: relative; }
@@ -35,7 +36,7 @@
     display: inline-block;
     margin-top: 25px;
     margin-right: 1em; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 479px) {
       .update .date {
         margin-top: 15px; } }
   .update .title {
@@ -43,19 +44,17 @@
     font-weight: bold;
     color: #007B50;
     margin-top: 25px; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 479px) {
       .update .title {
         margin-top: 15px;
         display: block;
-        margin-left: 1em; } }
-    @media screen and (max-width: 479px) {
-      .update .title {
         margin: 0; } }
   .update .description {
     display: block;
     text-align: left;
-    margin-left: 2em;
-    margin-bottom: 25px; }
+    margin: 10px 0 50px 2em; }
+    .update .description p {
+      margin: 0.5em 0; }
     @media screen and (max-width: 768px) {
       .update .description {
         margin-bottom: 15px; } }
@@ -76,22 +75,57 @@
   .update .img_sample {
     width: 100%;
     filter: blur(0.7px); }
+    @media screen and (max-width: 479px) {
+      .update .img_sample {
+        text-align: center; } }
     .update .img_sample img {
-      width: 60px; }
+      width: calc(70% / 10); }
+      @media screen and (max-width: 1105px) {
+        .update .img_sample img {
+          width: calc(60% / 10); } }
       @media screen and (max-width: 768px) {
         .update .img_sample img {
-          width: 35px; } }
+          width: calc(70% / 10); } }
       @media screen and (max-width: 479px) {
         .update .img_sample img {
-          width: 45px; } }
+          width: calc(80% / 5); } }
   .update ul {
     list-style-position: inside;
     text-align: left;
     margin: 0 0 20px; }
-    .update ul li {
-      list-style-type: square; }
-    .update ul .tab_name {
-      list-style: none; }
+  .update li {
+    list-style: outside;
+    list-style-type: square;
+    margin: 0 0 10px 0; }
+    @media screen and (max-width: 479px) {
+      .update li {
+        margin-bottom: 20px; } }
+  .update .column p {
+    margin: 0 0 10px; }
+  .update .tab_name {
+    list-style: none;
+    margin: 0 0 0 -1.5em; }
+  .update .desc_wrap {
+    margin-left: 1.5em; }
+    @media screen and (max-width: 479px) {
+      .update .desc_wrap {
+        margin-left: 0; }
+        .update .desc_wrap p {
+          margin-left: .7em; } }
+    @media screen and (max-width: 479px) and (max-width: 320px) {
+      .update .desc_wrap p {
+        margin-left: .2em; } }
+  .update .article_title {
+    margin-left: -1em;
+    list-style: none;
+    font-weight: bold; }
+    @media screen and (max-width: 479px) {
+      .update .article_title {
+        margin: 0 0 .7em -.5em; } }
+    .update .article_title:before {
+      content: '【'; }
+    .update .article_title:after {
+      content: '】'; }
 
 .arrow {
   display: inline-block;

@@ -56,6 +56,12 @@ hr {
     .hr_100 {
       margin: 20px 0; } }
 
+.sp_only {
+  display: none; }
+  @media screen and (max-width: 479px) {
+    .sp_only {
+      display: block; } }
+
 .header_box {
   border: none;
   width: 100%;
@@ -155,6 +161,20 @@ main ul {
 
 .margin_0 {
   margin: 0; }
+  .margin_0_i {
+    margin: 0 !important; }
+
+.margin_t_0_i {
+  margin-top: 0px !important; }
+
+.margin_t_5_i {
+  margin-top: 5px !important; }
+
+.margin_t_10_i {
+  margin-top: 10px !important; }
+
+.margin_t_20_i {
+  margin-top: 20px !important; }
 
 h1 {
   font-weight: bold;
@@ -186,6 +206,8 @@ text
 
 .font_large {
   font-size: 30px; }
+  .font_large_p {
+    font-size: 120%; }
 
 .font_regular {
   font-size: 20px; }
@@ -250,7 +272,6 @@ text
   @media screen and (max-width: 768px) {
     .tips_sp {
       display: block;
-      right: -13px;
       width: 15%;
       top: 0;
       position: absolute; } }
@@ -321,6 +342,18 @@ text
   background-color: #333;
   color: #5db696;
   content: 'new'; }
+
+.list_kome li {
+  list-style: none !important; }
+  .list_kome li:before {
+    content: "※"; }
+
+.list_kome_small li {
+  font-size: 80%;
+  list-style: none !important;
+  margin: 0; }
+  .list_kome_small li:before {
+    content: "※"; }
 
 .info {
   padding: 2vw 0;
@@ -401,8 +434,8 @@ section {
     content: 'TV DRAMA'; }
   .fan-art .title_sp:after {
     content: 'SPECIAL'; }
-  .fan-art .title_di:after {
-    content: 'DISNEY'; }
+  .fan-art .title_fl:after {
+    content: 'FILM'; }
   .fan-art #datatables_wrapper {
     text-align: center; }
   .fan-art .fixed {
@@ -685,6 +718,48 @@ section {
         width: 100%; } }
     .memo .soon_img img {
       width: 100%; }
+  .memo h1 {
+    border: none;
+    padding-left: 0; }
+  .memo h3 {
+    margin-bottom: 5px; }
+  .memo h4 {
+    margin: 0; }
+  .memo dd {
+    margin: 0; }
+  .memo .desc_box {
+    margin-bottom: 50px; }
+    .memo .desc_box_2 {
+      margin-bottom: 50px; }
+      .memo .desc_box_2 dd {
+        width: 90%;
+        margin: 0 auto;
+        display: none; }
+    .memo .desc_box dd {
+      width: 90%;
+      margin: 0 auto; }
+  .memo .list_kome_small {
+    padding: 0; }
+  .memo ul {
+    margin-top: 0; }
+    .memo ul li {
+      list-style-type: square; }
+  .memo .css-icon_search {
+    position: relative; }
+  .memo .search_box {
+    border: 2px solid;
+    position: relative;
+    left: 25px;
+    width: 150px;
+    padding-left: 20px; }
+  .memo .new_word .search_box {
+    background-color: #fff; }
+  .memo .new_word span {
+    position: relative;
+    top: -28px;
+    left: 210px;
+    font-weight: bold;
+    color: #007B50; }
 
 @font-face {
   font-family: NBC;
@@ -740,7 +815,7 @@ section {
     display: inline-block;
     margin-top: 25px;
     margin-right: 1em; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 479px) {
       .update .date {
         margin-top: 15px; } }
   .update .title {
@@ -748,19 +823,17 @@ section {
     font-weight: bold;
     color: #007B50;
     margin-top: 25px; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 479px) {
       .update .title {
         margin-top: 15px;
         display: block;
-        margin-left: 1em; } }
-    @media screen and (max-width: 479px) {
-      .update .title {
         margin: 0; } }
   .update .description {
     display: block;
     text-align: left;
-    margin-left: 2em;
-    margin-bottom: 25px; }
+    margin: 10px 0 50px 2em; }
+    .update .description p {
+      margin: 0.5em 0; }
     @media screen and (max-width: 768px) {
       .update .description {
         margin-bottom: 15px; } }
@@ -781,22 +854,57 @@ section {
   .update .img_sample {
     width: 100%;
     filter: blur(0.7px); }
+    @media screen and (max-width: 479px) {
+      .update .img_sample {
+        text-align: center; } }
     .update .img_sample img {
-      width: 60px; }
+      width: calc(70% / 10); }
+      @media screen and (max-width: 1105px) {
+        .update .img_sample img {
+          width: calc(60% / 10); } }
       @media screen and (max-width: 768px) {
         .update .img_sample img {
-          width: 35px; } }
+          width: calc(70% / 10); } }
       @media screen and (max-width: 479px) {
         .update .img_sample img {
-          width: 45px; } }
+          width: calc(80% / 5); } }
   .update ul {
     list-style-position: inside;
     text-align: left;
     margin: 0 0 20px; }
-    .update ul li {
-      list-style-type: square; }
-    .update ul .tab_name {
-      list-style: none; }
+  .update li {
+    list-style: outside;
+    list-style-type: square;
+    margin: 0 0 10px 0; }
+    @media screen and (max-width: 479px) {
+      .update li {
+        margin-bottom: 20px; } }
+  .update .column p {
+    margin: 0 0 10px; }
+  .update .tab_name {
+    list-style: none;
+    margin: 0 0 0 -1.5em; }
+  .update .desc_wrap {
+    margin-left: 1.5em; }
+    @media screen and (max-width: 479px) {
+      .update .desc_wrap {
+        margin-left: 0; }
+        .update .desc_wrap p {
+          margin-left: .7em; } }
+    @media screen and (max-width: 479px) and (max-width: 320px) {
+      .update .desc_wrap p {
+        margin-left: .2em; } }
+  .update .article_title {
+    margin-left: -1em;
+    list-style: none;
+    font-weight: bold; }
+    @media screen and (max-width: 479px) {
+      .update .article_title {
+        margin: 0 0 .7em -.5em; } }
+    .update .article_title:before {
+      content: '【'; }
+    .update .article_title:after {
+      content: '】'; }
 
 .arrow {
   display: inline-block;
@@ -888,6 +996,12 @@ hr {
   @media screen and (max-width: 479px) {
     .hr_100 {
       margin: 20px 0; } }
+
+.sp_only {
+  display: none; }
+  @media screen and (max-width: 479px) {
+    .sp_only {
+      display: block; } }
 
 .header_box {
   border: none;
@@ -988,6 +1102,20 @@ main ul {
 
 .margin_0 {
   margin: 0; }
+  .margin_0_i {
+    margin: 0 !important; }
+
+.margin_t_0_i {
+  margin-top: 0px !important; }
+
+.margin_t_5_i {
+  margin-top: 5px !important; }
+
+.margin_t_10_i {
+  margin-top: 10px !important; }
+
+.margin_t_20_i {
+  margin-top: 20px !important; }
 
 h1 {
   font-weight: bold;
@@ -1019,6 +1147,8 @@ text
 
 .font_large {
   font-size: 30px; }
+  .font_large_p {
+    font-size: 120%; }
 
 .font_regular {
   font-size: 20px; }
@@ -1083,7 +1213,6 @@ text
   @media screen and (max-width: 768px) {
     .tips_sp {
       display: block;
-      right: -13px;
       width: 15%;
       top: 0;
       position: absolute; } }
@@ -1155,21 +1284,30 @@ text
   color: #5db696;
   content: 'new'; }
 
-.characters {
-  padding: 2vw 0;
-  /*------------------------------
+.list_kome li {
+  list-style: none !important; }
+  .list_kome li:before {
+    content: "※"; }
+
+.list_kome_small li {
+  font-size: 80%;
+  list-style: none !important;
+  margin: 0; }
+  .list_kome_small li:before {
+    content: "※"; }
+
+/*------------------------------
             index
 ------------------------------*/
-  /*------------------------------
-              dic
-------------------------------*/ }
+.characters {
+  padding: 2vw 0; }
   .characters h1 {
     font-family: 'Walter Turncoat', cursive;
-    padding: 0.25em 0;
+    padding: 0.25em 0 1em;
     margin: 0;
     border: none; }
-  .characters .soon {
-    display: none !important; }
+  .characters dt {
+    margin-top: 20px; }
   .characters .title_note {
     font-size: 85%; }
   .characters .table-box_list .fan-art_img {
@@ -1185,7 +1323,7 @@ text
     margin: 3px; }
     @media screen and (max-width: 768px) {
       .characters .table-box_list tr {
-        width: 33%; } }
+        width: 30%; } }
   .characters .table-box_list .filtr-item {
     height: auto !important; }
   .characters .table-box_list .table_c_name {
@@ -1204,7 +1342,18 @@ text
       .characters .table-box_list .table_c_name {
         bottom: 0px;
         font-size: 14px;
+        height: 30px;
         background: rgba(0, 0, 0, 0.4); } }
+  .characters .table-box_list .dwa_e {
+    background: rgba(121, 57, 171, 0.7) !important; }
+  .characters .table-box_list .dwa_t {
+    background: rgba(171, 57, 57, 0.7) !important; }
+  .characters .table-box_list .dwa_f {
+    background: rgba(57, 81, 171, 0.7) !important; }
+  .characters .table-box_list .dwa_a {
+    background: rgba(164, 171, 57, 0.7) !important; }
+  .characters .table-box_list .dwa_p {
+    background: rgba(57, 171, 66, 0.7) !important; }
   .characters .table-box_list tr:hover .table_c_name {
     bottom: 0;
     height: 30px; }
@@ -1221,6 +1370,125 @@ text
     @media screen and (max-width: 479px) {
       .characters .simplefilter li {
         min-width: 92px; } }
+  .characters .dic h1 {
+    font-family: 'Walter Turncoat', cursive;
+    padding: 0 0 2vw 0;
+    margin: 0;
+    border: none; }
+    @media screen and (max-width: 479px) {
+      .characters .dic h1 {
+        padding: 10px 0; } }
+  .characters .dic dl {
+    margin-top: 0; }
+  .characters .dic .active_title {
+    font-weight: bold; }
+  .characters .dic .active_img {
+    display: block; }
+  .characters .dic [id^=sec] {
+    position: relative;
+    left: 0; }
+  .characters .dic .title_note {
+    display: none; }
+  @media screen and (max-width: 1105px) {
+    .characters .dic #sec1 {
+      width: 50%;
+      max-height: 335px;
+      overflow: auto; } }
+  @media screen and (max-width: 768px) {
+    .characters .dic #sec1 {
+      width: 100%;
+      height: auto;
+      max-height: 100%; } }
+  .characters .dic #sec1 .media_weap {
+    width: 100%;
+    margin: 0 auto;
+    height: auto; }
+  .characters .dic #sec1 .main_box {
+    width: 100%;
+    margin: 0 auto;
+    height: auto; }
+  .characters .dic #sec1 .main_description {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    overflow: auto;
+    cursor: default; }
+    @media screen and (max-width: 1105px) {
+      .characters .dic #sec1 .main_description {
+        height: 36vw; } }
+    @media screen and (max-width: 768px) {
+      .characters .dic #sec1 .main_description {
+        width: 100%;
+        overflow: visible;
+        padding: 0;
+        height: 100%; } }
+  .characters .dic #sec1 .main_visual {
+    width: 46%;
+    display: inline-block;
+    vertical-align: top; }
+    @media screen and (max-width: 768px) {
+      .characters .dic #sec1 .main_visual {
+        width: 90%;
+        left: 5%; } }
+    @media screen and (max-width: 479px) {
+      .characters .dic #sec1 .main_visual {
+        width: 100%;
+        left: 0; } }
+    .characters .dic #sec1 .main_visual img {
+      width: 100%; }
+  .characters .dic #sec2 {
+    position: absolute;
+    width: 50%;
+    left: 49.8%;
+    top: 240px; }
+    @media screen and (max-width: 1105px) {
+      .characters .dic #sec2 {
+        width: 40%;
+        left: 53%;
+        top: 220px; } }
+    @media screen and (max-width: 768px) {
+      .characters .dic #sec2 {
+        position: relative;
+        left: 0;
+        top: auto;
+        width: 100%; } }
+    .characters .dic #sec2 .img_wrap {
+      position: relative;
+      overflow: hidden;
+      width: 500px;
+      height: 500px;
+      margin: 0 auto; }
+      @media screen and (max-width: 1105px) {
+        .characters .dic #sec2 .img_wrap {
+          height: 85vw;
+          width: 100%; } }
+      @media screen and (max-width: 768px) {
+        .characters .dic #sec2 .img_wrap {
+          height: 85vw;
+          max-width: 500px;
+          max-height: 500px; } }
+      .characters .dic #sec2 .img_wrap img {
+        position: absolute;
+        top: 0;
+        width: 100%; }
+      .characters .dic #sec2 .img_wrap [class^=ca] {
+        width: 100%;
+        height: 100%; }
+  .characters .dic dd div div {
+    font-weight: bold; }
+  .characters .dic .height:before, .characters .dic .height_nodata:before {
+    content: "Height : ";
+    font-weight: normal; }
+  .characters .dic .height:after {
+    content: "㎝"; }
+  .characters .dic .height_nodata:after {
+    content: ""; }
+  .characters .dic .actor:before {
+    content: "Played by : ";
+    font-weight: normal; }
+  .characters .dic .cv:after {
+    content: " (voice)";
+    font-weight: normal; }
   .characters .related_img {
     display: inline-block; }
     .characters .related_img li {
@@ -1231,48 +1499,6 @@ text
     display: none; }
   .characters .related a {
     text-decoration: none; }
-  .characters .main_box {
-    width: 100%;
-    margin: 0 auto; }
-  .characters .main_visual {
-    width: 45%;
-    display: inline-block;
-    vertical-align: middle; }
-    @media screen and (max-width: 479px) {
-      .characters .main_visual {
-        width: 100%; } }
-    .characters .main_visual img {
-      width: 100%; }
-  .characters .main_description {
-    width: 53%;
-    display: inline-block;
-    vertical-align: middle;
-    height: 445px;
-    overflow: auto;
-    cursor: default; }
-    @media screen and (max-width: 479px) {
-      .characters .main_description {
-        width: 100%;
-        overflow: visible;
-        padding: 0;
-        height: 100%; } }
-    .characters .main_description .height,
-    .characters .main_description .height_nodata,
-    .characters .main_description .actor {
-      font-weight: bold; }
-    .characters .main_description .height:before, .characters .main_description .height_nodata:before {
-      content: "Height : ";
-      font-weight: normal; }
-    .characters .main_description .height:after {
-      content: "㎝"; }
-    .characters .main_description .height_nodata:after {
-      content: ""; }
-    .characters .main_description .actor:before {
-      content: "Played by : ";
-      font-weight: normal; }
-    .characters .main_description .cv:after {
-      content: " (voice)";
-      font-weight: normal; }
   .characters .bx-wrapper img {
     width: 100%;
     display: block;
@@ -1338,3 +1564,24 @@ text
   .characters .active {
     font-weight: bold;
     color: #007B50; }
+
+.search.icon {
+  color: #000;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 3px;
+  width: 12px;
+  height: 12px;
+  border: solid 2px currentColor;
+  border-radius: 100%;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+.search.icon:before {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 5px;
+  height: 6px;
+  width: 2px;
+  background-color: currentColor; }

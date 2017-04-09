@@ -55,6 +55,14 @@ hr {
   }
 }
 
+//sp only
+.sp_only {
+  display: none;
+  @include max-screen($breakpoint-mobile) {
+    display: block;
+  }
+}
+
 //header
 .header {
   &_box {
@@ -191,9 +199,26 @@ main {
 .margin {
   &_0 {
     margin: 0;
+    &_i {
+      margin: 0 !important;
+    }
   }
 }
 
+.margin_t {
+  &_0_i {
+    margin-top: 0px !important;
+  }
+  &_5_i {
+    margin-top: 5px !important;
+  }
+  &_10_i {
+    margin-top: 10px !important;
+  }
+  &_20_i {
+    margin-top: 20px !important;
+  }
+}
 
 
 //Heading
@@ -231,6 +256,9 @@ text
 .font {
   &_large {
     font-size: 30px;
+    &_p{
+      font-size: 120%;
+    }
   }
   &_regular {
     font-size: 20px;
@@ -276,8 +304,9 @@ text
   }
 }
 
-
-//tips
+//------------------------------------//
+//                tips                //
+//------------------------------------//
 .tips,
 .tips_sp {
   overflow: hidden;
@@ -312,7 +341,6 @@ text
   display: none;
   @include max-screen($breakpoint-tablet) {
     display: block;
-    right: -13px;
     width: 15%;
     top: 0;
     position: absolute;
@@ -389,4 +417,26 @@ text
   background-color: #333;
   color: #5db696;
   content: 'new';
+}
+
+//list
+.list {
+  &_kome {
+    li {
+      list-style:none !important;
+      &:before {
+        content:"※";
+      }
+    }
+    &_small {
+      li {
+        font-size: 80%;
+        list-style:none !important;
+        margin: 0;
+        &:before {
+          content:"※";
+        }
+      }
+    }
+  }
 }
