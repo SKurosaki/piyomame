@@ -40,6 +40,7 @@ $(document).ready(function() {
   });
 });
 
+//multiple click
 $('[class^="tab"]').click(function(c) {
   var imgTab = '.'+ this.className;
   var activeImg = imgTab + "-i"
@@ -89,7 +90,7 @@ $(function(){
 //           toggle open              //
 //------------------------------------//
 //toggle open
-$(function(){
+$(function(toggleOpen){
   $(".a_list dt").on("click", function() {
     $(this).next().slideToggle();
   });
@@ -125,7 +126,9 @@ $(function(){
 //inner comment
 $(function(){
   $('.inner_1').append('<p>メイン画像下のサムネイルを押すと関連画像が表示されます。</p><a href="" class="modalClose">Close</a>');
-  $('.inner_2').append('<p>キャラクター名で検索ができます。</p><p>（英語、カタカナ、ひらがな、一部韓国語対応）</p><p>邪神、兄上など一部通称でも検索できます。</p><p>半角スペースで複数キャラの検索ができます。</p><a href="" class="modalClose">Close</a>');
+  $('.inner_2').append('<strong>できること</strong><ul><li>キャラクター名検索</li><li>半角スペースで複数キャラ検索</li><li>愛称検索（邪神、兄上など）</li><li>小ネタ検索</li><li>俳優名検索</li><li>作品タイトル名検索(一部)</li></ul><p>（※英語、カナ、かな、一部韓国語対応）</p><a href="" class="modalClose">Close</a>');
+  $('.inner_3').append('<strong>できること</strong><ul><li>キャラクター名検索</li><li>半角スペースで複数キャラ検索</li><li>愛称検索（邪神、兄上など）</li><li>5属性検索(エナジーなど)</li></ul><p>（※英語、カナ、かな、一部韓国語対応）</p><a href="" class="modalClose">Close</a>');
+
 });
 
 //fade in / fade out

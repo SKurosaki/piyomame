@@ -23,3 +23,45 @@
         width: 100%; } }
     .memo .soon_img img {
       width: 100%; }
+  .memo h1 {
+    border: none;
+    padding-left: 0; }
+  .memo h3 {
+    margin-bottom: 5px; }
+  .memo h4 {
+    margin: 0; }
+  .memo dd {
+    margin: 0; }
+  .memo .desc_box {
+    margin-bottom: 50px; }
+    .memo .desc_box_2 {
+      margin-bottom: 50px; }
+      .memo .desc_box_2 dd {
+        width: 90%;
+        margin: 0 auto;
+        display: none; }
+    .memo .desc_box dd {
+      width: 90%;
+      margin: 0 auto; }
+  .memo .list_kome_small {
+    padding: 0; }
+  .memo ul {
+    margin-top: 0; }
+    .memo ul li {
+      list-style-type: square; }
+  .memo .css-icon_search {
+    position: relative; }
+  .memo .search_box {
+    border: 2px solid;
+    position: relative;
+    left: 25px;
+    width: 150px;
+    padding-left: 20px; }
+  .memo .new_word .search_box {
+    background-color: #fff; }
+  .memo .new_word span {
+    position: relative;
+    top: -28px;
+    left: 210px;
+    font-weight: bold;
+    color: #007B50; }

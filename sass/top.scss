@@ -49,7 +49,7 @@
     display: inline-block;
     margin-top: 25px;
     margin-right: 1em;
-    @include max-screen($breakpoint-tablet) {
+    @include max-screen($breakpoint-mobile) {
       margin-top: 15px;
     }
   }
@@ -58,20 +58,19 @@
     font-weight: bold;
     color: #007B50;
     margin-top: 25px;
-    @include max-screen($breakpoint-tablet) {
+    @include max-screen($breakpoint-mobile) {
       margin-top: 15px;
       display: block;
-      margin-left: 1em;
-    }
-    @include max-screen($breakpoint-mobile) {
       margin: 0;
     }
   }
   .description {
     display: block;
     text-align: left;
-    margin-left: 2em;
-    margin-bottom: 25px;
+    margin: 10px 0 50px 2em;
+    p {
+      margin: 0.5em 0;
+    }
     @include max-screen($breakpoint-tablet) {
       margin-bottom: 15px;
     }
@@ -98,13 +97,21 @@
   .img_sample {
     width: 100%;
     filter: blur(0.7px);
+    @include max-screen($breakpoint-mobile) {
+      text-align: center;
+    }
     img {
-      width: 60px;
+      // width: 60px;
+      width: calc(70% / 10);
+      @include max-screen($breakpoint-tablet_big) {
+        // width: 51px;
+        width: calc(60% / 10);
+      }
       @include max-screen($breakpoint-tablet) {
-        width: 35px;
+        width: calc(70% / 10);
       }
       @include max-screen($breakpoint-mobile) {
-        width: 45px;
+        width: calc(80% / 5);
       }
     }
   }
@@ -112,16 +119,52 @@
     list-style-position: inside;
     text-align: left;
     margin: 0 0 20px;
+    }
     li{
+      list-style: outside;
       list-style-type: square;
+      margin: 0 0 10px 0;
+      @include max-screen($breakpoint-mobile) {
+        margin-bottom: 20px;
+      }
+    }
+    .column {
+      p {
+        margin: 0 0 10px;
+      }
     }
     .tab_name {
       list-style: none;
+      margin: 0 0 0 -1.5em;
+    }
+  .desc_wrap {
+    margin-left: 1.5em;
+    @include max-screen($breakpoint-mobile) {
+      margin-left: 0;
+      p{
+        margin-left: .7em;
+        @include max-screen($breakpoint-mobile_ip5) {
+          margin-left: .2em;
+        }
+      }
+    }
+  }
+
+  .article_title {
+    margin-left: -1em;
+    list-style: none;
+    font-weight: bold;
+    @include max-screen($breakpoint-mobile) {
+      margin: 0 0 .7em -.5em;
+    }
+    &:before {
+      content: '【';
+    }
+    &:after {
+      content: '】';
     }
   }
 }
-
-
 
 
 

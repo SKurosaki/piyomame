@@ -39,8 +39,8 @@
     content: 'TV DRAMA'; }
   .fan-art .title_sp:after {
     content: 'SPECIAL'; }
-  .fan-art .title_di:after {
-    content: 'DISNEY'; }
+  .fan-art .title_fl:after {
+    content: 'FILM'; }
   .fan-art #datatables_wrapper {
     text-align: center; }
   .fan-art .fixed {
