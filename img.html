@@ -42,12 +42,11 @@
           <li class="active all">All</li>
           <li class="tab1"><a href="#tab1" onClick="ga('send', 'event', 'tab1', 'click', 'ma');" class="title_ma"></a></li>
           <li class="tab2"><a href="#tab2" onClick="ga('send', 'event', 'tab1', 'click', 'di');" class="title_di"></a></li>
+          <li class="tab3"><a href="#tab3" onClick="ga('send', 'event', 'tab1', 'click', 'sw');" class="title_sw"></a></li>
           <li class="tab4"><a href="#tab4" onClick="ga('send', 'event', 'tab1', 'click', 'fl');" class="title_fl"></a></li>
           <li class="tab5"><a href="#tab5" onClick="ga('send', 'event', 'tab1', 'click', 'td');" class="title_td"></a></li>
-
           <li class="tab6"><a href="#tab6" onClick="ga('send', 'event', 'tab1', 'click', 'sp');" class="title_sp"></a></li>
           <li class="tab3 nodata"><a href="">coming soon</a></li>
-          <!--<li class="tab3"><a href="#tab3" onClick="ga('send', 'event', 'tab1', 'click', 'sw');">S✝ar Wars</a></li>-->
           <!--<li class="tab4"><a href="#tab4" onClick="ga('send', 'event', 'tab1', 'click', 'xd');">XD</a></li>-->
           <!--<li class="tab5"><a href="#tab5 onClick="ga('send', 'event', 'tab1', 'click', 'ot');"">Others</a></li>-->
         </ul>
@@ -91,7 +90,7 @@
               <li class="tab1_2_9" onClick="ga('send', 'event', 'tab3', 'click', 'ma_quick');">Quick Silver</li>
               <li class="tab1_2_10" onClick="ga('send', 'event', 'tab3', 'click', 'ma_falcon');">Falcon</li>
               <li class="tab1_2_11" onClick="ga('send', 'event', 'tab3', 'click', 'ma_antman');">Ant-Man</li>
-              <li class="tab1_2_12" onClick="ga('send', 'event', 'tab3', 'click', 'ma_spidy');">Spider-Man</li>
+              <li class="tab1_2_12" onClick="ga('send', 'event', 'tab3', 'click', 'ma_spidey');">Spider-Man</li>
               <li class="tab1_2_13" onClick="ga('send', 'event', 'tab3', 'click', 'ma_starlord');">Star-Lord</li>
               <li class="tab1_2_14" onClick="ga('send', 'event', 'tab3', 'click', 'ma_gamora');">Gamora</li>
               <li class="tab1_2_15" onClick="ga('send', 'event', 'tab3', 'click', 'ma_groot');">Groot</li>
@@ -124,7 +123,7 @@
           <ul class="multifilter category_02 tab_children">
             <li class="tab2" onClick="ga('send', 'event', 'tab1', 'click', 'di_all');">All</li>
             <li class="tab2_1"><a href="#tab_children51" onClick="ga('send', 'event', 'tab2', 'click', 'di_lk');">Lion King</a></li>
-            <li class="tab2_2"><a href="#tab_children52">NBC</a></li>
+            <li class="tab2_2"><a href="#tab_children52" onClick="ga('send', 'event', 'tab2', 'click', 'di_nbc');">NBC</a></li>
             <!--<li class="tab2_3"><a href="#tab_children53">BH6</a></li>-->
             <li class="nodata">coming soon</li>
             <li class="nodata">coming soon</li>
@@ -142,10 +141,12 @@
           </div>
           <div class="row area_children" id="tab_children52">
             <ul class="multifilter category_03 tab_g_children">
-              <li class="tab2_2">All</li>
-              <li class="tab2_2_1">Boogie</li>
-              <!--<li class="tab2_2_2">Lock,Shock and Barrel</li>
-              <li class="tab2_2_3">Jack</li>
+              <li class="tab2_2" onClick="ga('send', 'event', 'tab2', 'click', 'di_nbc_all');">All</li>
+              <li class="tab2_2_1" onClick="ga('send', 'event', 'tab3', 'click', 'di_nbc_boogie');">Boogie</li>
+              <li class="tab2_2_2" onClick="ga('send', 'event', 'tab3', 'click', 'di_nbc_lock');">Lock</li>
+              <li class="tab2_2_3" onClick="ga('send', 'event', 'tab3', 'click', 'di_nbc_shock');">Shock</li>
+              <li class="tab2_2_4" onClick="ga('send', 'event', 'tab3', 'click', 'di_nbc_barrel');">Barrel</li>
+              <!--<li class="tab2_2_3">Jack</li>
               <li class="tab2_2_4">Zero</li>
               <li class="tab2_2_5">Sally</li>-->
             </ul>
@@ -166,19 +167,21 @@
         </div>
         <div class="row area" id="tab3">
           <ul class="multifilter category_02 tab_children">
-            <li class="tab3">All</li>
-            <li class="tab3_1"><a href="#tab_children101">Dark Side</a></li>
-            <li class="tab3_2"><a href="#tab_children102">Light Side</a></li>
-            <li class="tab3_3"><a href="#tab_children103">Others</a></li>
+            <li class="tab3" onClick="ga('send', 'event', 'tab2', 'click', 'sw_all');">All</li>
+            <li class="tab3_1" onClick="ga('send', 'event', 'tab3', 'click', 'di_sw_dark');"><a href="#tab_children101">Dark Side</a></li>
+            <!--<li class="tab3_2" onClick="ga('send', 'event', 'tab3', 'click', 'di_sw_light');"><a href="#tab_children102">Light Side</a></li>-->
+            <!--<li class="tab3_3" onClick="ga('send', 'event', 'tab3', 'click', 'di_sw_others');"><a href="#tab_children103">Others</a></li>-->
+            <li class="nodata">coming soon</li>
+            <li class="nodata">coming soon</li>
           </ul>
         </div>
         <div class="content">
           <div class="row area_children" id="tab_children101">
             <ul class="multifilter category_03 tab_g_children">
-              <li class="tab3_1">All</li>
-              <li class="tab3_1_1">Darth Vader</li>
-              <li class="tab3_1_2">Darth Maul</li>
-              <li class="tab3_1_3">Kylo Ren</li>
+              <li class="tab3_1" onClick="ga('send', 'event', 'tab1', 'click', 'sw_all');">All</li>
+              <li class="tab3_1_1" onClick="ga('send', 'event', 'tab3', 'click', 'di_sw_vader');">Darth Vader</li>
+              <li class="tab3_1_2" onClick="ga('send', 'event', 'tab3', 'click', 'di_sw_maul');">Darth Maul</li>
+              <!--<li class="tab3_1_3" onClick="ga('send', 'event', 'tab3', 'click', 'di_sw_ren');">>Kylo Ren</li>-->
             </ul>
           </div>
           <div class="row area_children" id="tab_children102">
@@ -196,8 +199,8 @@
         </div>
         <div class="row area" id="tab4">
           <ul class="multifilter category_02 tab_children">
-            <li class="tab4">All</li>
-            <li class="tab4_1"><a href="#tab_children151">Pacific Rim</a></li>
+            <li class="tab4" onClick="ga('send', 'event', 'tab1', 'click', 'fl_all');">All</li>
+            <li class="tab4_1"><a href="#tab_children151" onClick="ga('send', 'event', 'tab2', 'click', 'fl_pacificrim');">Pacific Rim</a></li>
             <li class="nodata">coming soon</li>
             <li class="nodata">coming soon</li>
           </ul>
@@ -205,10 +208,10 @@
         <div class="content">
           <div class="row area_children" id="tab_children151">
             <ul class="multifilter category_03 tab_g_children">
-              <li class="tab4_1">All</li>
+              <li class="tab4_1" onClick="ga('send', 'event', 'tab2', 'click', 'fl_pr_all');">All</li>
               <!--<li class="tab4_1_1">Kaiju</li>
               <li class="tab4_1_2">Newt</li>-->
-              <li class="tab4_1_3">hermann</li>
+              <li class="tab4_1_3" onClick="ga('send', 'event', 'tab3', 'click', 'fl_pr_hermann');">hermann</li>
               <!--<li class="tab4_1_4"></li>
               <li class="tab4_1_5"></li>
               <li class="tab4_1_6"></li>-->
@@ -266,6 +269,290 @@
 
     <form name="searchWindow" >
       <table id="datatables" class="common_align-center table-box">
+        <div class="page 121-130">
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h christopher_e david_p james_e_j ray_p peter_s ian_m jennifer_l jeremy_i lee_p hugo_w sebastian_s ken_p"></td>
+            <td class="search-word loki destroyer malekith hook venom stormtrooper vader maul magneto mystique scar ronan red_skull bucky zemo boogie"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0130.png" data-lightbox="group" title="アルゴリズムこうしん〜悪役のみなさんといっしょ〜">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0130_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tobey_m"></td>
+            <td class="search-word spidey"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0129.png" data-lightbox="group" title="待ち受けイラリク④">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0129_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h"></td>
+            <td class="search-word loki"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0128.png" data-lightbox="group" title="待ち受けイラリク③">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0128_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h danny_e catherine_o paul_re"></td>
+            <td class="search-word loki lock shock barrel"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0127.png" data-lightbox="group" title="自己流にいたずらカルテットかくとこうなる">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0127_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h danny_e catherine_o paul_re"></td>
+            <td class="search-word loki lock shock barrel"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0126.png" data-lightbox="group" title="いたずらカルテット差分">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0126_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h danny_e catherine_o paul_re"></td>
+            <td class="search-word loki lock shock barrel"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0125.png" data-lightbox="group" title="いたずらカルテット">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0125_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h"></td>
+            <td class="search-word loki"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0124.png" data-lightbox="group" title="待ち受けイラリク②">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0124_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h scarlett_j"></td>
+            <td class="search-word loki nat"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0123.png" data-lightbox="group" title="ふぉろわさんのお誕生日祝い">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0123_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h"></td>
+            <td class="search-word loki"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0122.png" data-lightbox="group" title="待ち受けイラリク①">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0122_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h"></td>
+            <td class="search-word loki spidey"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0131.png" data-lightbox="group" title="泣いてなどいない ただマスタードに不意をつかれただけだ">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0131_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </div>
+        <div class="page 121-130">
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h christopher_e david_p james_e_j ray_p peter_s ian_m jennifer_l jeremy_i lee_p hugo_w sebastian_s ken_p"></td>
+            <td class="search-word loki destroyer malekith hook venom stormtrooper vader maul magneto mystique scar ronan red_skull bucky zemo boogie"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0130.png" data-lightbox="group" title="アルゴリズムこうしん〜悪役のみなさんといっしょ〜">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0130_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tobey_m"></td>
+            <td class="search-word spidey"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0129.png" data-lightbox="group" title="待ち受けイラリク④">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0129_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h"></td>
+            <td class="search-word loki"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0128.png" data-lightbox="group" title="待ち受けイラリク③">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0128_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h danny_e catherine_o paul_re"></td>
+            <td class="search-word loki lock shock barrel"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0127.png" data-lightbox="group" title="自己流にいたずらカルテットかくとこうなる">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0127_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h danny_e catherine_o paul_re"></td>
+            <td class="search-word loki lock shock barrel"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0126.png" data-lightbox="group" title="いたずらカルテット差分">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0126_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h danny_e catherine_o paul_re"></td>
+            <td class="search-word loki lock shock barrel"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0125.png" data-lightbox="group" title="いたずらカルテット">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0125_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h"></td>
+            <td class="search-word loki"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0124.png" data-lightbox="group" title="待ち受けイラリク②">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0124_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h scarlett_j"></td>
+            <td class="search-word loki nat"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0123.png" data-lightbox="group" title="ふぉろわさんのお誕生日祝い">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0123_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word tom_h"></td>
+            <td class="search-word loki"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0122.png" data-lightbox="group" title="待ち受けイラリク①">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0122_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="search-word"></td>
+            <td class="search-word lee_p"></td>
+            <td class="search-word ronan"></td>
+            <td>
+              <div class="fan-art_img">
+                <div class="filtr-item">
+                  <a href="/img/fan_art/0101-0200/fa_0121.png" data-lightbox="group" title="強打者ロナン (#ワンドロ)">
+                    <img class="img-responsive" src="/img/fan_art/t_0101-0200/fa_0121_thumb.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </div>
         <div class="page 111-120">
           <tr>
             <td class="search-word"></td>
