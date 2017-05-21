@@ -430,6 +430,8 @@ section {
     content: 'MARVEL'; }
   .fan-art .title_di:after {
     content: 'DISNEY'; }
+  .fan-art .title_sw:after {
+    content: 'STAR WARS'; }
   .fan-art .title_td:after {
     content: 'TV DRAMA'; }
   .fan-art .title_sp:after {
@@ -463,7 +465,7 @@ section {
     color: white;
     cursor: pointer;
     display: inline-block;
-    min-width: 121px;
+    width: calc(70% / 7);
     height: 40px;
     padding: 0.5em;
     margin-bottom: 5px;
@@ -473,17 +475,13 @@ section {
       .fan-art .simplefilter li,
       .fan-art .multifilter li,
       .fan-art .sortandshuffle li {
-        min-width: 12%; } }
+        font-size: 72%; } }
     @media screen and (max-width: 1105px) {
       .fan-art .simplefilter li,
       .fan-art .multifilter li,
       .fan-art .sortandshuffle li {
-        min-width: 10.8%; } }
-    @media screen and (max-width: 479px) {
-      .fan-art .simplefilter li,
-      .fan-art .multifilter li,
-      .fan-art .sortandshuffle li {
-        min-width: 92px; } }
+        font-size: 100%;
+        width: calc(80% / 4); } }
   .fan-art .category_01 li {
     display: inline-flex;
     background-color: #585858; }
@@ -1387,6 +1385,18 @@ text
   .characters .dic [id^=sec] {
     position: relative;
     left: 0; }
+  .characters .dic [class^=txt-title_] {
+    display: none; }
+    .characters .dic [class^=txt-title_]:first-child {
+      display: block; }
+  .characters .dic [class^=img-title_] {
+    display: none; }
+    .characters .dic [class^=img-title_]:first-child {
+      display: block; }
+  .characters .dic [class^=img-cos_] {
+    display: none; }
+    .characters .dic [class^=img-cos_]:first-child {
+      display: block; }
   .characters .dic .title_note {
     display: none; }
   @media screen and (max-width: 1105px) {
@@ -1452,12 +1462,13 @@ text
         left: 0;
         top: auto;
         width: 100%; } }
+    .characters .dic #sec2 .active_cos {
+      display: inline-block; }
     .characters .dic #sec2 .img_wrap {
       position: relative;
       overflow: hidden;
       width: 500px;
-      height: 500px;
-      margin: 0 auto; }
+      height: 500px; }
       @media screen and (max-width: 1105px) {
         .characters .dic #sec2 .img_wrap {
           height: 85vw;
@@ -1474,6 +1485,25 @@ text
       .characters .dic #sec2 .img_wrap [class^=ca] {
         width: 100%;
         height: 100%; }
+  .characters .dic #sec3 {
+    width: 100%; }
+    @media screen and (max-width: 1105px) {
+      .characters .dic #sec3 {
+        width: 40%;
+        left: 53%;
+        top: 220px; } }
+    @media screen and (max-width: 768px) {
+      .characters .dic #sec3 {
+        position: relative;
+        left: 0;
+        top: auto;
+        width: 100%; } }
+    .characters .dic #sec3 [class^=img-title_] {
+      display: none; }
+      .characters .dic #sec3 [class^=img-title_]:first-child {
+        display: block; }
+    .characters .dic #sec3 .active_img {
+      display: inline-block; }
   .characters .dic dd div div {
     font-weight: bold; }
   .characters .dic .height:before, .characters .dic .height_nodata:before {

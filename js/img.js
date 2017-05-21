@@ -29,6 +29,7 @@ $(function(addSearchWord){
   $('.loki').append('Loki Laufeyson ロキ ろき 邪神 ろきちゃん ロキちゃん 로키').next().children('.fan-art_img').addClass('tab1-i tab1_1-i tab1_1_1-i');
   $('.magneto').append('Magneto Erik Magnus Lehnsherr マグニート エリック レーンシャー　まぐにーと えりっく れーんしゃー').next().children('.fan-art_img').addClass('tab1-i tab1_1-i tab1_1_6-i');
   $('.malekith').append('Malekith the Accursed マレキス まれきす').next().children('.fan-art_img').addClass('tab1-i tab1_1-i tab1_1_5-i');
+  $('.mystique').append('Mystique Raven Darkhölme ミスティーク レイヴンダークホルム みすてぃーく れいゔんだーくほるむ').next().children('.fan-art_img').addClass('tab1-i tab1_1-i');
   $('.modok').append('MODOK M.O.D.O.K. モードック もーどっく').next().children('.fan-art_img').addClass('tab1-i tab1_1-i');
   $('.nat').append('Black Widow Natasha Romanoff ブラックウィドウ ナターシャロマノフ ぶらっくうぃどう なたーしゃろまのふ ロマ姐 姐さん').next().children('.fan-art_img').addClass('tab1-i tab1_2-i tab1_2_5-i');
   $('.nebula').append('Nebula ネビュラ ねびゅら').next().children('.fan-art_img').addClass('tab1-i tab1_1-i tab1_1_8-i');
@@ -81,24 +82,28 @@ $(function(addSearchWord){
   $('.shenzi').append('Shenzi シェンジ しぇんじ');
 
   //NBC
-  $('.barrel').append('Barrel バレル ばれる');
+  $('.barrel').append('Barrel バレル ばれる').next().children('.fan-art_img').addClass('tab2-i tab2_2-i tab2_2_4-i');
   $('.boogie').append('Oogie Boogie ウーギーブギー うーぎーぶぎー 親分').next().children('.fan-art_img').addClass('tab2-i tab2_2-i tab2_2_1-i');
-  $('.lock').append('Lock ロック ろっく');
+  $('.lock').append('Lock ロック ろっく').next().children('.fan-art_img').addClass('tab2-i tab2_2-i tab2_2_2-i');
   $('.lsb').append('子鬼トリオ');
   $('.jack').append('Jack Skellington ジャックスケリントン パンプキンキング じゃっくすけりんとん ぱんぷきんきんぐ');
   $('.sally').append('Sally サリー さりー');
-  $('.shock').append('Shock ショック しょっく');
+  $('.shock').append('Shock ショック しょっく').next().children('.fan-art_img').addClass('tab2-i tab2_2-i tab2_2_3-i');
   $('.zero').append('Zero ゼロ ぜろ');
   //MAL
   $('.diaval').append('Diaval ディアヴァル でぃあゔぁる').next().children('.fan-art_img').addClass('tab2-i');
   $('.maleficent').append('Maleficent マレフィセント まれふぃせんと').next().children('.fan-art_img').addClass('tab2-i');
 
+  //PAN
+  $('.hook').append('Captain James Hook ジェームズフック フック船長 じぇーむずふっく').next().children('.fan-art_img').addClass('tab2-i');
+
   //-- 3 : SW --
-  $('.ewok').append('Ewok イウォーク いうぉーく');
-  $('.leia').append('Leia Organa Princess Leia レイアオーガナ レイア姫 れいあおーがな れいあひめ 将軍');
-  $('.maul').append('Darth Maul ダースモール だーすもーる');
-  $('.ren').append('Kylo Ren カイロレン かいろれん');
-  $('.vader').append('*Darth Vader ダースベイダー だーすべいだー 米田');
+  $('.ewok').append('Ewok イウォーク いうぉーく').next().children('.fan-art_img').addClass('tab3-i tab3_3-i tab3_3_3-i');
+  $('.leia').append('Leia Organa Princess Leia レイアオーガナ レイア姫 れいあおーがな れいあひめ 将軍').next().children('.fan-art_img').addClass('tab3-i tab3_2-i tab3_2_1-i');
+  $('.maul').append('Darth Maul ダースモール だーすもーる').next().children('.fan-art_img').addClass('tab3-i tab3_1-i tab3_1_2-i');
+  $('.ren').append('Kylo Ren カイロレン かいろれん').next().children('.fan-art_img').addClass('tab3-i tab3_1-i tab3_1_3-i');
+  $('.stormtrooper').append('Stormtrooper ストームトルーパー すとーむとるーぱー').next().children('.fan-art_img').addClass('tab3-i tab3_1-i tab3_1_2-i');
+  $('.vader').append('Darth Vader ダースベイダー だーすべいだー 米田').next().children('.fan-art_img').addClass('tab3-i tab3_1-i tab3_1_1-i');
 
   //-- 4 : FILM --
     //-- 4_1 : Pacific Rim
@@ -116,6 +121,11 @@ $(function(addSearchWord){
   $('.coriolanus').append('Coriolanus コリオレイナス こりおれいなす').next().children('.fan-art_img').addClass('');
 
 
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
   // $('.').append('');
   // $('.').append('');
   // $('.').append('');
@@ -147,16 +157,21 @@ $(function(addSearchWord){
   $('.benicio_d_t').append('Benicio Del Toro ベニチオデルトロ べにちおでるとろ');
   $('.bradley_c').append('Bradley Charles Cooper ブラッドリークーパー ぶらっどりーくーぱー');
   $('.burn_g').append(' Burn Hugh Winchester Gorman バーンゴーマン ばーんごーまん');
+  $('.catherine_o').append("Catherine Anne O'Hara キャサリンオハラ きゃさりんおはら");
   $('.chris_p').append('Chris Pratt Christopher Michael Pratt クリスプラット くりすぷらっと');
   $('.chris_e').append('Chris Evans クリスエヴァンス クリエヴァ くりすえゔぁんす');
   $('.chris_h').append('Chris Hemsworth クリスヘムズワース クリヘム くりすへむずわーす');
   $('.christopher_e').append('Christopher Eccleston クリストファーエクルストン くりすとふぁーえくるすとん');
+  $('.danny_e').append('Danny Elfman ダニーエルフマン だにーえるふまん');
   $('.david_b').append('David Michael Bautista Batista デビッドバウティスタ バティスタ でびっどばうてぃすた ばてぃすた');
+  $('.david_p').append('David Prowse デヴィッドプラウズ でゔぃっどぷらうず');
   $('.evan_p').append('Evan Peters エヴァンピーターズ えゔぁんぴーたーず');
   $('.gwyneth_p').append('Gwyneth Kate Paltrow グウィネスパルトロー ぐうぃねすぱるとろー');
   $('.hugo_w').append('Hugo Weaving ヒューゴウィーヴィング ひゅーごうぃーゔぃんぐ');
+  $('.ian_m').append('Sir Ian Murray McKellen サーイアンマッケラン さーいあんまっけらん');
   $('.idris_e').append('Idris Elba イドリスエルバ いどりすえるば');
   $('.james_e_j').append('James Earl Jones ジェームズアールジョーンズ じぇーむずあーるじょーんず');
+  $('.jennifer_l').append('Jennifer Lawrence ジェニファーローレンス じぇにふぁーろーれんす');
   $('.jeremy_i').append('Jeremy Irons ジェレミーアイアンズ じぇれみーあいあんず');
   $('.jeremy_r').append('Jeremy Renner ジェレミーレナー じぇれみーれなー');
   $('.karen_g').append('Karen Gillan カレンギラン かれんぎらん');
@@ -167,18 +182,23 @@ $(function(addSearchWord){
   $('.michael_r').append('Michael Rooker マイケルルーカー まいけるるーかー');
   $('.ophelia_l').append('Ophelia Lovibond オフィリアラヴィボンド おふぃりあらゔぃぼんど');
   $('.paul_r').append('Paul Rudd ポールラッド ぽーるらっど');
+  $('.paul_re').append('Paul Reubens ポールルーベンス ぽーるるーべんす');
+  $('.peter_s').append('Peter Serafinowicz ピーターセラフィノイス ぴーたーせらふぃのいす');
+  $('.ray_p').append('Ray Park レイパーク れいぱーく');
   $('.rene_r').append('Rene Russo レネルッソ れねるっそ');
   $('.robert_d_j').append('Robert Downey Jr. RDJ ロバートダウニージュニア ろばーとだうにーじゅにあ');
   $('.sam_r').append('Sam Riley サムライリー さむらいりー');
   $('.samuel_l_j').append('Samuel L. Jackson サミュエルエルジャクソン さみゅえるえるじゃくそん');
   $('.scarlett_j').append('Scarlett Johansson スカーレットヨハンソン スカヨハ すかーれっとよはんそん');
   $('.sebastian_s').append('Sebastian Stan セバスチャンスタン セバスタ せばすちゃんすたん せばすた');
+  $('.tobey_m').append('Tobey Maguire トビーマグワイア とびーまぐわいあ');
   $('.toby_j').append('Toby Jones トビージョーンズ とびーじょーんず');
   $('.tom_h').append('Tom Hiddleston Thomas William Hiddleston トムヒドルストン とむひどるすとん');
   $('.vin_d').append('Vin Diesel ヴィンディーゼル ゔぃんでぃーぜる');
   $('.wyatt_o').append('Wyatt Oleff ワイアットオレフ わいあっとおれふ');
   $('.zoe_s').append('Zoe Saldana Zoë Saldaña ゾーイサルダナ ぞーいさるだな');
 });
+
 
 
 $(function(addTitle){
@@ -190,4 +210,5 @@ $(function(addTitle){
 
   setTimeout(addTitle, 1000);
 });
+
 
