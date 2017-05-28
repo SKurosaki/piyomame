@@ -100,6 +100,10 @@ $(function(addSearchWord){
   $('.diaval').append('Diaval ディアヴァル でぃあゔぁる').next().children('.fan-art_img').addClass('tab2-i');
   $('.maleficent').append('Maleficent マレフィセント まれふぃせんと').next().children('.fan-art_img').addClass('tab2-i');
 
+  //POC
+  $('.jack_pc').append('Jack the Monkey ジャックザモンキー じゃっくざもんきー さる 猿').next().children('.fan-art_img').addClass('tab2-i');
+
+
   //PAN
   $('.hook').append('Captain James Hook ジェームズフック フック船長 じぇーむずふっく').next().children('.fan-art_img').addClass('tab2-i');
 
@@ -118,9 +122,19 @@ $(function(addSearchWord){
     //-- 4_1 : Pacific Rim
     $('.hermann').append('hermann gottlieb ハーマンゴットリーブ はーまんごっどりーぶ').next().children('.fan-art_img').addClass('tab4-i tab4_1-i tab4_1_3-i ');
 
-    //-- 4_2 : Lord of the Ring
-    $('.legolas').append('Legolas レゴラス れごらす').next().children('.fan-art_img').addClass('tab4-i tab4_2-i tab4_2_1-i');
-    $('.treebeard').append('Treebeard Ent Onodrim エント オノドリム ファンゴルン えんと おのどりむ ふぁんごるん きのひげ 木の髭 ').next().children('.fan-art_img').addClass('tab4-i tab4_2-i');
+    //-- 4_2 : Lord of the Ring / Hobbit
+    $('.grima').append('Grima Gríma Wormtongue グリマ ぐりま 蛇の舌').next().children('.fan-art_img').addClass('tab4-i tab4_2-i tab4_2_1-i');
+    $('.legolas').append('Legolas レゴラス れごらす').next().children('.fan-art_img').addClass('tab4-i tab4_2-i tab4_2_2-i');
+    $('.treebeard').append('Treebeard Ent Onodrim エント オノドリム ファンゴルン えんと おのどりむ ふぁんごるん きのひげ 木の髭').next().children('.fan-art_img').addClass('tab4-i tab4_2-i');
+
+    //-- 4_3 : Hobbit
+    $('.legolas').append('Legolas レゴラス れごらす').next().children('.fan-art_img').addClass('tab4-i tab4_3-i tab4_3_2-i');
+    $('.thranduil').append('Thranduil スランドゥイル すらんどぅいる スラ様 すら様 ぱぱ').next().children('.fan-art_img').addClass('tab4-i tab4_3-i tab4_3_1-i');
+
+
+    //-- 4_4 : Star Trek
+    $('.khan').append('John Harrison Khan ジョンハリソン カーン じょんはりそん かーん').next().children('.fan-art_img').addClass('tab4-i tab4_4-i tab4_4_1-i');
+    $('.scotty').append('Montgomery Scott Scotty モンゴメリースコット スコッティ もんごめりーすこっと すこってぃ').next().children('.fan-art_img').addClass('tab4-i tab4_4-i tab4_4_2-i');
 
 
   //-- 5 : TV DRAMA --
@@ -135,11 +149,6 @@ $(function(addSearchWord){
 
 
 
-  // $('.').append('');
-  // $('.').append('');
-  // $('.').append('');
-  // $('.').append('');
-  // $('.').append('');
   // $('.').append('');
   // $('.').append('');
   // $('.').append('');
@@ -166,6 +175,7 @@ $(function(addSearchWord){
   $('.anthony_m').append('Anthony Mackie アンソニーマッキー あんそにーまっきー');
   $('.benedict_c').append('Benedict Timothy Carlton Cumberbatch ベネディクト・カンバーバッチ べねでぃくとかんばーばっち');
   $('.benicio_d_t').append('Benicio Del Toro ベニチオデルトロ べにちおでるとろ');
+  $('.brad_d').append('Brad Dourif ブラッドドゥーリフ ぶらっどどぅーりふ');
   $('.bradley_c').append('Bradley Charles Cooper ブラッドリークーパー ぶらっどりーくーぱー');
   $('.burn_g').append(' Burn Hugh Winchester Gorman バーンゴーマン ばーんごーまん');
   $('.catherine_o').append("Catherine Anne O'Hara キャサリンオハラ きゃさりんおはら");
@@ -186,7 +196,7 @@ $(function(addSearchWord){
   $('.jennifer_l').append('Jennifer Lawrence ジェニファーローレンス じぇにふぁーろーれんす');
   $('.jeremy_b').append('Jeremy Bulloch	ジェレミーブロック じぇれみーぶろっく');
   $('.jeremy_i').append('Jeremy Irons ジェレミーアイアンズ じぇれみーあいあんず');
-  $('.jeremy_r').append('Jeremy Renner ジェレミーレナー じぇれみーれなー');
+  $('.jeremy_r').append('Jeremy Renner ジェレミーレナー じぇれみーれなー れれみ');
   $('.jim_c').append('Jim Cumming ジムカミングス じむかみんぐす');
   $('.john_r_d').append('John Rhys-Davies John Rhys Davies ジョン・リス＝デイヴィス ジョンリスデイヴィス じょんりすでいゔぃす');
   $('.karen_g').append('Karen Gillan カレンギラン かれんぎらん');
@@ -210,6 +220,7 @@ $(function(addSearchWord){
   $('.samuel_l_j').append('Samuel L. Jackson サミュエルエルジャクソン さみゅえるえるじゃくそん');
   $('.scarlett_j').append('Scarlett Johansson スカーレットヨハンソン スカヨハ すかーれっとよはんそん');
   $('.sebastian_s').append('Sebastian Stan セバスチャンスタン セバスタ せばすちゃんすたん せばすた');
+  $('.simon_p').append('Simon Pegg サイモンペグ さいもんぺぐ');
   $('.tadanobu_a').append('Tadanobu Asano 浅野忠信 あさのただのぶ');
   $('.temuera_m').append('Temuera Morrison テムエラモリソン てむえらもりそん');
   $('.tobey_m').append('Tobey Maguire トビーマグワイア とびーまぐわいあ');
@@ -230,6 +241,8 @@ $(function(addTitle){
   $('.tab2_2-i').parent().prev().append('The Nightmare Before Christmas ナイトメアビフォアクリスマス ないとめあびふぉあくりすます');
   $('.tab4_1-i').parent().prev().append('Pacific Rim パシフィックリム パシリム ぱしふぃっくりむ ぱしりむ');
   $('.tab4_2-i').parent().prev().append('The Lord of the Rings ロード・オブ・ザ・リング ろーどおぶざりんぐ 指輪');
+  $('.tab4_3-i').parent().prev().append('The Hobbit ホビット ほびっと');
+  $('.tab4_4-i').parent().prev().append('Star Trek スタートレック すたーとれっく すたとれ');
 
 
 
