@@ -150,7 +150,9 @@ $(function(addSearchWord){
   $('.dwa').append('DWA');
   $('.gb').append('神兄弟').next().children('.fan-art_img').addClass('tab6-i tab6_1-i');
   $('.gn').append('銀魂');
+  $('.ic').append('アイコン');
   $('.pt').append('ペットボトル');
+  $('.sga').append('信号トリオA 信号トリオB').next().children('.fan-art_img').addClass('tab6-i tab6_3-i');
   $('.tbt').append('ティムバートン風');
   $('.yb').append('弟組').next().children('.fan-art_img').addClass('tab6-i tab6_2-i');
   $('.usa').append('うさぎ');
@@ -214,6 +216,7 @@ $(function(addSearchWord){
   $('.toby_j').append('Toby Jones トビージョーンズ とびーじょーんず');
   $('.tom_h').append('Tom Hiddleston Thomas William Hiddleston トムヒドルストン とむひどるすとん');
   $('.vin_d').append('Vin Diesel ヴィンディーゼル ゔぃんでぃーぜる');
+  $('.william_d').append('William Dafoe ウィレムデフォー うぃれむでふぉー');
   $('.wyatt_o').append('Wyatt Oleff ワイアットオレフ わいあっとおれふ');
   $('.zoe_s').append('Zoe Saldana Zoë Saldaña ゾーイサルダナ ぞーいさるだな');
 });
