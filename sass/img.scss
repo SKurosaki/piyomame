@@ -45,6 +45,9 @@
     &_di:after {
       content: 'DISNEY';
     }
+    &_sw:after {
+      content: 'STAR WARS';
+    }
     &_td:after {
       content: 'TV DRAMA';
     }
@@ -53,6 +56,9 @@
     }
     &_fl:after {
       content: 'FILM';
+    }
+    &_th:after {
+      content: 'THEATER';
     }
   }
 
@@ -92,7 +98,7 @@
       color: white;
       cursor: pointer;
       display: inline-block;
-      min-width: 121px;
+      width: calc(70% / 7);
       height: 40px;
       padding: 0.5em;
       margin-bottom: 5px;
@@ -100,13 +106,11 @@
       font-family: 'しねきゃぷしょん';
       text-transform: uppercase;
       @include max-screen($breakpoint-pc_tablet) {
-        min-width: 12%;
+        font-size: 72%;
       }
       @include max-screen($breakpoint-tablet_big) {
-        min-width: 10.8%;
-      }
-      @include max-screen($breakpoint-mobile) {
-        min-width: 92px;
+        font-size: 100%;
+        width: calc(80% / 4);
       }
     }
   }
@@ -114,6 +118,7 @@
     &_01 {
       li {
         display: inline-flex;
+        width: calc(70% / 7.4);
         a {
           margin-left: 0;
         }
@@ -140,6 +145,7 @@
     &_03 {
       li {
         background-color: #baaf8d;
+        width: calc(70% / 5);
         &.active {
           background-color: #a98d36;
         }

@@ -7,6 +7,7 @@ body {
   color: #333;
   line-height: 1.75em;
   margin: 0;
+  overflow-y: scroll;
   font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
   @media screen and (max-width: 479px) {
     body {
@@ -438,6 +439,8 @@ section {
     content: 'SPECIAL'; }
   .fan-art .title_fl:after {
     content: 'FILM'; }
+  .fan-art .title_th:after {
+    content: 'THEATER'; }
   .fan-art #datatables_wrapper {
     text-align: center; }
   .fan-art .fixed {
@@ -484,6 +487,7 @@ section {
         width: calc(80% / 4); } }
   .fan-art .category_01 li {
     display: inline-flex;
+    width: calc(70% / 7.4);
     background-color: #585858; }
     .fan-art .category_01 li a {
       margin-left: 0; }
@@ -498,7 +502,8 @@ section {
     .fan-art .category_02 li:hover {
       background-color: #007B50; }
   .fan-art .category_03 li {
-    background-color: #baaf8d; }
+    background-color: #baaf8d;
+    width: calc(70% / 5); }
     .fan-art .category_03 li.active {
       background-color: #a98d36; }
     .fan-art .category_03 li:hover {
@@ -946,6 +951,7 @@ body {
   color: #333;
   line-height: 1.75em;
   margin: 0;
+  overflow-y: scroll;
   font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
   @media screen and (max-width: 479px) {
     body {
