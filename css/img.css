@@ -35,12 +35,16 @@
     content: 'MARVEL'; }
   .fan-art .title_di:after {
     content: 'DISNEY'; }
+  .fan-art .title_sw:after {
+    content: 'STAR WARS'; }
   .fan-art .title_td:after {
     content: 'TV DRAMA'; }
   .fan-art .title_sp:after {
     content: 'SPECIAL'; }
   .fan-art .title_fl:after {
     content: 'FILM'; }
+  .fan-art .title_th:after {
+    content: 'THEATER'; }
   .fan-art #datatables_wrapper {
     text-align: center; }
   .fan-art .fixed {
@@ -68,7 +72,7 @@
     color: white;
     cursor: pointer;
     display: inline-block;
-    min-width: 121px;
+    width: calc(70% / 7);
     height: 40px;
     padding: 0.5em;
     margin-bottom: 5px;
@@ -78,19 +82,16 @@
       .fan-art .simplefilter li,
       .fan-art .multifilter li,
       .fan-art .sortandshuffle li {
-        min-width: 12%; } }
+        font-size: 72%; } }
     @media screen and (max-width: 1105px) {
       .fan-art .simplefilter li,
       .fan-art .multifilter li,
       .fan-art .sortandshuffle li {
-        min-width: 10.8%; } }
-    @media screen and (max-width: 479px) {
-      .fan-art .simplefilter li,
-      .fan-art .multifilter li,
-      .fan-art .sortandshuffle li {
-        min-width: 92px; } }
+        font-size: 100%;
+        width: calc(80% / 4); } }
   .fan-art .category_01 li {
     display: inline-flex;
+    width: calc(70% / 7.4);
     background-color: #585858; }
     .fan-art .category_01 li a {
       margin-left: 0; }
@@ -105,7 +106,8 @@
     .fan-art .category_02 li:hover {
       background-color: #007B50; }
   .fan-art .category_03 li {
-    background-color: #baaf8d; }
+    background-color: #baaf8d;
+    width: calc(70% / 5); }
     .fan-art .category_03 li.active {
       background-color: #a98d36; }
     .fan-art .category_03 li:hover {

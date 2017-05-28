@@ -143,12 +143,34 @@ $(function(addSearchWord){
   $('.john').append('John Watson ジョンワトソン じょんわとそん').next().children('.fan-art_img').addClass('tab5-i tab5_1-i tab5_1_2-i');
 
 
+  //-- 8 : THEATER --
+    //-- 8_1 : Coriolanus
+    $('.coriolanus').append('Coriolanus コリオレイナス こりおれいなす').next().children('.fan-art_img').addClass('tab8-i tab8_1-i tab8_1_1-i');
 
-  // Shakespeare
-  $('.coriolanus').append('Coriolanus コリオレイナス こりおれいなす').next().children('.fan-art_img').addClass('');
+    //-- 8_2 : Frankenstein
+    $('.creature').append('Creature クリーチャー くりーちゃー 怪物').next().children('.fan-art_img').addClass('tab8-i tab8_2-i tab8_2_2-i');
+    $('.f_creature').append('Female Creature 女性クリーチャー じょせいりーちゃー').next().children('.fan-art_img').addClass('tab8-i tab8_2-i tab8_2_2-i');
+    $('.frankenstein').append('Frankenstein フランケンシュタイン博士 ふらんけんしゅたいん').next().children('.fan-art_img').addClass('tab8-i tab8_2-i tab8_2_1-i');
 
 
 
+
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
+  // $('.').append('');
   // $('.').append('');
   // $('.').append('');
   // $('.').append('');
@@ -160,6 +182,7 @@ $(function(addSearchWord){
   $('.gb').append('神兄弟').next().children('.fan-art_img').addClass('tab6-i tab6_1-i');
   $('.gn').append('銀魂');
   $('.ic').append('アイコン');
+  $('.ntl').append('National Theatre Live ナショナル・シアター・ライヴ ナショナルシアターライブ なしょなるしあたーらいぶ');
   $('.pt').append('ペットボトル');
   $('.sga').append('信号トリオA 信号トリオB').next().children('.fan-art_img').addClass('tab6-i tab6_3-i');
   $('.tbt').append('ティムバートン風');
@@ -199,6 +222,7 @@ $(function(addSearchWord){
   $('.jeremy_r').append('Jeremy Renner ジェレミーレナー じぇれみーれなー れれみ');
   $('.jim_c').append('Jim Cumming ジムカミングス じむかみんぐす');
   $('.john_r_d').append('John Rhys-Davies John Rhys Davies ジョン・リス＝デイヴィス ジョンリスデイヴィス じょんりすでいゔぃす');
+  $('.jonny_l_m').append('Jonny Lee Miller ジョニーリーミラー じょにーりーみらー');
   $('.karen_g').append('Karen Gillan カレンギラン かれんぎらん');
   $('.ken_p').append('Ken Page ケンペイジ けんぺいじ');
   $('.kenny_b').append('Kenny Baker ケニーベイカー けにーべいかー');
