@@ -695,6 +695,24 @@ section {
     @media screen and (max-width: 768px) {
       .fan-art .search_tab {
         display: none; } }
+  .fan-art .reload {
+    position: absolute;
+    top: 173px;
+    color: #f5f5f5;
+    font-weight: bold;
+    text-decoration: none;
+    width: 25px; }
+    @media screen and (max-width: 768px) {
+      .fan-art .reload {
+        top: 165px;
+        left: 13%; } }
+    @media screen and (max-width: 479px) {
+      .fan-art .reload {
+        top: 162px;
+        left: 11%;
+        width: 18px; } }
+    .fan-art .reload img {
+      width: 100%; }
 
 .memo {
   width: 100%; }
@@ -908,6 +926,8 @@ section {
       content: '【'; }
     .update .article_title:after {
       content: '】'; }
+  .update .icon img {
+    width: 12px; }
 
 .arrow {
   display: inline-block;

@@ -24,6 +24,7 @@ $(function(addSearchWord){
   $('.hit_mon').append('Hit Monkey ヒットモンキー ひっともんきー').next().children('.fan-art_img').addClass('tab1-i tab1_1-i');
   $('.hogun').append('Hogun ホーガン ほーがん').next().children('.fan-art_img').addClass('tab1-i tab1_3-i');
   $('.hulk').append('Hulk Bruce Banner ハルク ブルースバナー はるく ぶるーすばなー 博士').next().children('.fan-art_img').addClass('tab1-i tab1_2-i tab1_2_4-i');
+  // $('.iceman').append('Iceman アイスマン あいすまん').next().children('.fan-art_img').addClass('tab1-i tab1_2-i');
   $('.ironfist').append('Iron Fist Daniel Danny Rand アイアンフィスト ダニーランド').next().children('.fan-art_img').addClass('tab1-i tab1_2-i');
   $('.jane').append('Jane Foster ジェーンフォスター じぇーんふぉすたー').next().children('.fan-art_img').addClass('tab1-i tab1_3-i');
   $('.juggernaut').append('Juggernaut ジャガーノート じゃがーのーと').next().children('.fan-art_img').addClass('tab1-i tab1_1-i');
@@ -46,6 +47,7 @@ $(function(addSearchWord){
   $('.shocker').append('Herman Schultz Shocker ハーマンシュルツ ショッカー はーまんしゅるつ しょっかー').next().children('.fan-art_img').addClass('tab1-i tab1_1-i');
   $('.spidey').append('Spider-Man Spider Man Peter Benjamin Parker Spidey スパイダーマン ピーターパーカー スパイディ すぱいだーまん ぴーたーぱーかー すぱいでぃ 親愛なる隣人').next().children('.fan-art_img').addClass('tab1-i tab1_2-i tab1_2_12-i');
   $('.star_lord').append('Star-Lord Star Lord Peter Quill スターロード ピータークイル スタロ すたーろーど ぴーたーくいる すたろ').next().children('.fan-art_img').addClass('tab1-i tab1_2-i tab1_2_13-i');
+  // $('.sunfire').append('Sunfire サンファイアー さんふぁいあー').next().children('.fan-art_img').addClass('tab1-i tab1_2-i');
   $('.thor').append('Thor Odinson ソー そー 兄上 토르').next().children('.fan-art_img').addClass('tab1-i tab1_2-i tab1_2_1-i');
   $('.tony').append('Iron Man IronMan  Tony Stark アイアンマン トニースターク あいあんまん とにーすたーく 社長').next().children('.fan-art_img').addClass('tab1-i tab1_2-i tab1_2_2-i');
   $('.ultron').append('Ultron ウルトロン うるとろん').next().children('.fan-art_img').addClass('tab1-i tab1_1-i tab1_1_4-i');
@@ -123,8 +125,11 @@ $(function(addSearchWord){
     $('.hermann').append('hermann gottlieb ハーマンゴットリーブ はーまんごっどりーぶ').next().children('.fan-art_img').addClass('tab4-i tab4_1-i tab4_1_3-i ');
 
     //-- 4_2 : Lord of the Ring / Hobbit
+    $('.bilbo').append('Bilbo Baggins ビルボバギンズ びるぼばぎんす').next().children('.fan-art_img').addClass('tab4-i tab4_3-i tab4_3_3-i');
+    $('.gollum').append('Gollum ゴラム ごらむ').next().children('.fan-art_img').addClass('tab4-i tab4_2-i tab4_2_3-i');
     $('.grima').append('Grima Gríma Wormtongue グリマ ぐりま 蛇の舌').next().children('.fan-art_img').addClass('tab4-i tab4_2-i tab4_2_1-i');
     $('.legolas').append('Legolas レゴラス れごらす').next().children('.fan-art_img').addClass('tab4-i tab4_2-i tab4_2_2-i');
+    $('.smeagol').append('Smeagol Sméagol スメアゴル すめあごる').next().children('.fan-art_img').addClass('tab4-i tab4_2-i tab4_2_3-i');
     $('.treebeard').append('Treebeard Ent Onodrim エント オノドリム ファンゴルン えんと おのどりむ ふぁんごるん きのひげ 木の髭').next().children('.fan-art_img').addClass('tab4-i tab4_2-i');
 
     //-- 4_3 : Hobbit
@@ -138,9 +143,9 @@ $(function(addSearchWord){
 
 
   //-- 5 : TV DRAMA --
-  // SH
-  $('.sherlock').append('Sherlock Holmes シャーロックホームズ しゃーろっくほーむず').next().children('.fan-art_img').addClass('tab5-i tab5_1-i tab5_1_1-i');
-  $('.john').append('John Watson ジョンワトソン じょんわとそん').next().children('.fan-art_img').addClass('tab5-i tab5_1-i tab5_1_2-i');
+    // SH
+    $('.sherlock').append('Sherlock Holmes シャーロックホームズ しゃーろっくほーむず').next().children('.fan-art_img').addClass('tab5-i tab5_1-i tab5_1_1-i');
+    $('.john').append('John Watson ジョンワトソン じょんわとそん').next().children('.fan-art_img').addClass('tab5-i tab5_1-i tab5_1_2-i');
 
 
   //-- 8 : THEATER --
@@ -174,14 +179,15 @@ $(function(addSearchWord){
   // $('.').append('');
   // $('.').append('');
   // $('.').append('');
-  // $('.').append('');
 
   //-- SP --
   $('.bs').append('後姿');
+  $('.cf').append('コップのふち子');
   $('.dwa').append('DWA');
   $('.gb').append('神兄弟').next().children('.fan-art_img').addClass('tab6-i tab6_1-i');
   $('.gn').append('銀魂');
   $('.ic').append('アイコン');
+  $('.lb').append('レゴブロック');
   $('.ntl').append('National Theatre Live ナショナル・シアター・ライヴ ナショナルシアターライブ なしょなるしあたーらいぶ');
   $('.pt').append('ペットボトル');
   $('.sga').append('信号トリオA 信号トリオB').next().children('.fan-art_img').addClass('tab6-i tab6_3-i');
@@ -193,6 +199,7 @@ $(function(addSearchWord){
   //++ ACTOR ++
   $('.aaron_t_j').append('Aaron Taylor Johnson アーロンテイラージョンソン あーろんていらーじょんそん');
   $('.akinnuoye_a').append('Adewale Akinnuoye Agbaje アドウェールアキノエアグバエ あどうぇーるあきのえあぐばえ');
+  $('.andy_s').append('Andy Serkis アンディーサーキス あんでぃさーきす');
   $('.angelina_j').append('Angelina Jolie アンジェリーナジョリー あんじぇりーなじょりー');
   $('.anthony_h').append('Anthony Hopkins アンソニーホプキンス あんそにーほぷきんす');
   $('.anthony_m').append('Anthony Mackie アンソニーマッキー あんそにーまっきー');
@@ -267,23 +274,5 @@ $(function(addTitle){
   $('.tab4_2-i').parent().prev().append('The Lord of the Rings ロード・オブ・ザ・リング ろーどおぶざりんぐ 指輪');
   $('.tab4_3-i').parent().prev().append('The Hobbit ホビット ほびっと');
   $('.tab4_4-i').parent().prev().append('Star Trek スタートレック すたーとれっく すたとれ');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   setTimeout(addTitle, 1000);
 });
-
-
-
