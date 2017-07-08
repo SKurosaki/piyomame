@@ -126,6 +126,8 @@
       content: '【'; }
     .update .article_title:after {
       content: '】'; }
+  .update .icon img {
+    width: 12px; }
 
 .arrow {
   display: inline-block;
