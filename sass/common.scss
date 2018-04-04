@@ -18,7 +18,7 @@ body {
 //link
 a {
   color: #333;
-  &::visited {
+  &:visited {
     color: #333;
   }
   &:hover {

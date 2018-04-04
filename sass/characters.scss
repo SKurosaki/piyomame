@@ -2,24 +2,26 @@
 @import 'common';
 
 
-.characters {
-  padding: 2vw 0;
-  // common
-  h1 {
-    font-family: 'Walter Turncoat', cursive;
-    padding: 0.25em 0;
-    margin: 0;
-    border: none;
-  }
 
 /*------------------------------
             index
 ------------------------------*/
+.characters {
+  padding: 2vw 0;
+
+  h1 {
+    font-family: 'Walter Turncoat', cursive;
+    padding: 0.25em 0 1em;
+    margin: 0;
+    border: none;
+  }
 
 
 
-  .soon {
-    display: none !important;
+
+
+  dt {
+    margin-top: 20px;
   }
 
   .title_note {
@@ -41,7 +43,7 @@
       overflow: hidden;
       margin: 3px;
       @include max-screen($breakpoint-tablet) {
-        width: 33%;
+        width: 30%;
       }
     }
     .filtr-item{
@@ -59,11 +61,28 @@
       -webkit-transition: .3s;
       transition: .3s;
       font-family: 'Walter Turncoat', cursive;
-      // font-family: 'Sue Ellen Francisco', cursive;
       @include max-screen($breakpoint-tablet) {
         bottom: 0px;
         font-size: 14px;
+        height: 30px;
         background: rgba(0,0,0,.4);
+      }
+    }
+    .dwa {
+      &_e {
+        background: rgba(121,57,171,.7) !important;
+      }
+      &_t {
+        background: rgba(171,57,57,.7) !important;
+      }
+      &_f {
+        background: rgba(57,81,171,.7) !important;
+      }
+      &_a {
+        background: rgba(164,171,57,.7) !important;
+      }
+      &_p {
+        background: rgba(57,171,66,.7) !important;
       }
     }
     tr:hover {
@@ -94,11 +113,276 @@
 
 
 
+//------------------------------------//
+//                wiki                //
+//------------------------------------//
+  .dic {
+
+  // common
+    h1 {
+      font-family: 'Walter Turncoat', cursive;
+      padding: 0 0 2vw 0;
+      margin: 0;
+      border: none;
+      @include max-screen($breakpoint-mobile) {
+        padding: 10px 0;
+      }
+    }
+
+    dl {
+      margin-top: 0;
+    }
+
+    .active {
+      &_title {
+        font-weight: bold;
+        color: #007B50;
+      }
+      &_img {
+        display: block;
+      }
+    }
+
+    [id^=sec] {
+      position: relative;
+      left: 0;
+    }
+
+    [class^=txt-title_] {
+      display: none;
+      &:first-child {
+        display: block;
+      }
+    }
+    [class^=img-title_] {
+      display: none;
+      &:first-child {
+        display: block;
+      }
+    }
+    [class^=img-cos_] {
+      display: none;
+      &:first-child {
+        display: block;
+      }
+    }
 
 
-/*------------------------------
-              dic
-------------------------------*/
+
+  //title
+
+  .title_note {
+    display: none;
+  }
+
+    // sec1
+    #sec1 {
+       @include max-screen($breakpoint-tablet_big) {
+         width: 50%;
+         max-height: 335px;
+        overflow: auto;
+       }
+       @include max-screen($breakpoint-tablet) {
+         width: 100%;
+         height: auto;
+         max-height: 100%;
+       }
+
+      .media_weap {
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+      }
+
+
+      .main {
+        &_box {
+          width: 100%;
+          margin: 0 auto;
+          height: auto;
+        }
+        &_description {
+          display: inline-block;
+          vertical-align: top;
+          height: 100%;
+          overflow: auto;
+          cursor: default;
+          @include max-screen($breakpoint-tablet_big) {
+            height: 36vw;
+          }
+          @include max-screen($breakpoint-tablet) {
+            width: 100%;
+            overflow: visible;
+            padding: 0;
+            height: 100%;
+          }
+        }
+        &_visual {
+          width: 46%;
+          display: inline-block;
+          vertical-align: top;
+          @include max-screen($breakpoint-tablet) {
+            width: 90%;
+            left: 5%
+          }
+          @include max-screen($breakpoint-mobile) {
+            width: 100%;
+            left: 0;
+          }
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    //secc2 - img
+    #sec2 {
+      position: absolute;
+      width: 50%;
+      left: 50%;
+      top: 240px;
+      @include max-screen($breakpoint-tablet_big) {
+        width: 40%;
+        left: 53%;
+        top: 220px;
+      }
+      @include max-screen($breakpoint-tablet) {
+        position: relative;
+        left: 0;
+        top: auto;
+        width: 100%;
+      }
+      .active_cos {
+        display: inline-block;
+      }
+      .img_wrap {
+        position: relative;
+        overflow: hidden;
+        width: 500px;
+        height: 500px;
+        @include max-screen($breakpoint-tablet_big) {
+          height: 85vw;
+          width: 100%;
+        }
+        @include max-screen($breakpoint-tablet) {
+          height: 85vw;
+          max-width: 500px;
+          max-height: 500px;
+        }
+        img {
+          position: absolute;
+          top: 0;
+          width: 100%;
+        }
+        
+        [class^=ca] {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+
+    //sec3 - costume thumb
+    #sec3 {
+      width: 100%;
+      @include max-screen($breakpoint-tablet_big) {
+        width: 100%;
+        left: 0;
+        top: 10px;
+      }
+      @include max-screen($breakpoint-tablet) {
+        left: 0;
+        top: 10px;
+        width: 100%;
+      }
+      @include max-screen($breakpoint-tablet) {
+        position: relative;
+        left: 0;
+        top: auto;
+        width: 100%;
+      }
+      [class^=img-title_] {
+        display: none;
+        &:first-child {
+          display: block;
+        }
+      }
+
+      .active_img {
+        display: inline-block;
+      }
+
+
+      [class^=cos_] {
+        opacity: .5;
+        img {
+          border-radius: 12px;
+        }
+      }
+      .now {
+        opacity: 1;
+      }
+
+      //only one img
+      .only {
+        pointer-events : none;
+        cursor: pointer;
+      }
+
+    }
+
+    //sec4 - related img
+    #sec4 {
+      width: 50%;
+      @include max-screen($breakpoint-tablet) {
+        width: 100%;
+      }
+      [class^=img-title_] {
+        img {
+          border-radius: 12px;
+        }
+      }
+    }
+
+
+    // sec5 - profile
+
+    dd div div {
+      font-weight: bold;
+    }
+    .height {
+      &:before {
+        content: "Height : ";
+        font-weight: normal;
+      }
+      &:after {
+        content: "㎝";
+      }
+      &_nodata {
+        &:before {
+          @extend .height:before;
+        }
+        &:after {
+          content: ""
+        }
+      }
+    }
+    .actor:before {
+      content: "Played by : ";
+      font-weight: normal;
+    }
+    .cv:after {
+      content: " (voice)";
+      font-weight: normal;
+    }
+  }
+
+
+
+
+
 
   //dic
   .related {
@@ -119,74 +403,13 @@
     }
   }
 
-  .main {
-    &_box {
-      width: 100%;
-      margin: 0 auto;
-    }
-    &_visual {
-      width: 45%;
-      display: inline-block;
-      vertical-align: middle;
-      @include max-screen($breakpoint-mobile) {
-        width: 100%;
-      }
-      img {
-        width: 100%;
-      }
-    }
-    &_description {
-      width: 53%;
-      display: inline-block;
-      vertical-align: middle;
-      height: 445px;
-      overflow: auto;
-      cursor: default;
-      @include max-screen($breakpoint-mobile) {
-        width: 100%;
-        overflow: visible;
-        padding: 0;
-        height: 100%;
-      }
 
-      .height,
-      .height_nodata,
-      .actor {
-        font-weight: bold;
-      }
-      .height {
-        &:before {
-          content: "Height : ";
-          font-weight: normal;
-        }
-        &:after {
-          content: "㎝";
-        }
-      &_nodata {
-        &:before {
-          @extend .height:before;
-        }
-        &:after {
-          content: ""
-        }
-      }
-      }
-
-      .actor:before {
-        content: "Played by : ";
-        font-weight: normal;
-      }
-      .cv:after {
-        content: " (voice)";
-        font-weight: normal;
-      }
-    }
-  }
 
 .bx-wrapper img {
     width: 100%;
     display: block;
     margin: 0 auto;
+    border-radius: 12px;
 }
 .bx-viewport {
       height: 100% !important;
@@ -248,6 +471,9 @@
         }
       }
     }
+    .sp_show {
+      display: block;
+    }
   }
 
   .test {
@@ -267,8 +493,14 @@
   .bx-next {
     display: none;
   }
-  .active {
-    font-weight: bold;
-    color: #007B50;
-  }
+
+  // .active-img {
+  
+  // }
+
+
+// 最新
+
+
+
 }

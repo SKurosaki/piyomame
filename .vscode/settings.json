@@ -4,5 +4,6 @@
   "editor.fontSize": 10,
 
     // タブ 1 つに相当するスペースの数。
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "git.ignoreLimitWarning": true
 }

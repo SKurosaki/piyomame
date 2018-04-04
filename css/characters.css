@@ -14,7 +14,7 @@ body {
 
 a {
   color: #333; }
-  a::visited {
+  a:visited {
     color: #333; }
   a:hover {
     color: #ccc; }
@@ -440,7 +440,8 @@ text
   .characters .dic dl {
     margin-top: 0; }
   .characters .dic .active_title {
-    font-weight: bold; }
+    font-weight: bold;
+    color: #007B50; }
   .characters .dic .active_img {
     display: block; }
   .characters .dic [id^=sec] {
@@ -510,7 +511,7 @@ text
   .characters .dic #sec2 {
     position: absolute;
     width: 50%;
-    left: 49.8%;
+    left: 50%;
     top: 240px; }
     @media screen and (max-width: 1105px) {
       .characters .dic #sec2 {
@@ -550,9 +551,14 @@ text
     width: 100%; }
     @media screen and (max-width: 1105px) {
       .characters .dic #sec3 {
-        width: 40%;
-        left: 53%;
-        top: 220px; } }
+        width: 100%;
+        left: 0;
+        top: 10px; } }
+    @media screen and (max-width: 768px) {
+      .characters .dic #sec3 {
+        left: 0;
+        top: 10px;
+        width: 100%; } }
     @media screen and (max-width: 768px) {
       .characters .dic #sec3 {
         position: relative;
@@ -565,6 +571,22 @@ text
         display: block; }
     .characters .dic #sec3 .active_img {
       display: inline-block; }
+    .characters .dic #sec3 [class^=cos_] {
+      opacity: .5; }
+      .characters .dic #sec3 [class^=cos_] img {
+        border-radius: 12px; }
+    .characters .dic #sec3 .now {
+      opacity: 1; }
+    .characters .dic #sec3 .only {
+      pointer-events: none;
+      cursor: pointer; }
+  .characters .dic #sec4 {
+    width: 50%; }
+    @media screen and (max-width: 768px) {
+      .characters .dic #sec4 {
+        width: 100%; } }
+    .characters .dic #sec4 [class^=img-title_] img {
+      border-radius: 12px; }
   .characters .dic dd div div {
     font-weight: bold; }
   .characters .dic .height:before, .characters .dic .height_nodata:before {
@@ -593,7 +615,8 @@ text
   .characters .bx-wrapper img {
     width: 100%;
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    border-radius: 12px; }
   .characters .bx-viewport {
     height: 100% !important; }
   .characters .list_thumb {
@@ -642,6 +665,8 @@ text
         cursor: default;
         color: #333;
         text-decoration: none; }
+  .characters .a_list .sp_show {
+    display: block; }
   .characters .test {
     width: 10px; }
   .characters .none_ca {
@@ -652,6 +677,3 @@ text
   .characters .bx-prev,
   .characters .bx-next {
     display: none; }
-  .characters .active {
-    font-weight: bold;
-    color: #007B50; }
