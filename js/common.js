@@ -45,13 +45,19 @@ $('[class^="tab"]').click(function(c) {
   var imgTab = '.'+ this.className;
   var activeImg = imgTab + "-i"
   $(".fan-art_img").hide();
+  $(".fan-art_img").removeClass('activeImg');
   $(activeImg).show();
+  $(activeImg).addClass('activeImg');
   $(imgTab).click(function(){
     $('.fan-art_img').hide();
+    $(".fan-art_img").removeClass('activeImg');
+    $(activeImg).addClass('activeImg');
     $(activeImg).show();
   });
   $('.paginate_button').click(function(){
     $('.fan-art_img').hide();
+    $(".fan-art_img").removeClass('activeImg');
+    $(activeImg).addClass('activeImg');
     $(activeImg).show();
   });
 });
